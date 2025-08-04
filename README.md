@@ -1,4 +1,4 @@
-# List of agentic coding tools with free access to frontier models
+# List of agentic coding tools with free access to pro-grade models
 
 > **TL;DR**: Compare agentic IDEs/CLIs by their free access to frontier models. Local models = unlimited free use, Gemini CLI = 3000 h/month, others have various limits.
 
