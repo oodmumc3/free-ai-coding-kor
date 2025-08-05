@@ -1,19 +1,8 @@
 # List of agentic coding tools with free access to pro-grade models
 
-> **TL;DR**: Compare agentic IDEs/CLIs by their free access to frontier models. Local models = unlimited free use, Gemini CLI = 3000 h/month, others have various limits.
-
-Last verified: August 4, 2025 • PRs welcome • ⭐ Star if useful!
+Last verified: August 5, 2025 • PRs welcome • ⭐ Star if useful!
 
 This list compares agentic coding systems (IDE and CLI) organized by their access to frontier models: free pro-grade access, paid pro-grade tiers, and basic model access.
-
----
-
-## Methodology / assumptions
-
-- Goal: compare agentic coding systems by their access to frontier models.
-- Preset: 60 requests ≈ 1 AI-assisted coding hour (based on real-world task simulation).
-- Token quotas: when vendors publish tokens (not requests), assume ~10k tokens ≈ 1 coding hour.
-- If you spot an error or missing source link, please open an issue or a pull request.
 
 ---
 
@@ -31,8 +20,8 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 **Free Access to Pro-Grade Models:**
 - **Vendor limit:** 100 requests/day for Gemini 2.5 Pro
-- **Estimate:** ~1.7h/day (~50h/month)
-- **Fallback:** 1,500 requests/day for Gemini 2.5 Flash (~25h/day, ~750h/month)
+- **Estimate:** ~1.7h/day (~50h/month) [1]
+- **Fallback:** 1,500 requests/day for Gemini 2.5 Flash (~25h/day, ~750h/month) [1]
 - Terms apply when registered with individual Google account
 - No credit card required
 
@@ -44,7 +33,7 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 **Free Access to Pro-Grade Models:**
 - **Vendor limit:** 150 requests/month
-- **Estimate:** ~2.5h/month across Claude Sonnet 4, OpenAI o3, Gemini 2.5 Pro
+- **Estimate:** ~2.5h/month across Claude Sonnet 4, OpenAI o3, Gemini 2.5 Pro [1]
 - No credit card required
 
 **Links:** [Pricing](https://www.warp.dev/pricing)
@@ -55,7 +44,8 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 **Free Access to Pro-Grade Models:**
 - **Vendor limit:** 50 agentic chats/month
-- **Estimate:** ~0.8h/month of Claude Sonnet 4
+- **Estimate:** ~0.8h/month of Claude Sonnet 4 [3]
+- **Note:** Each agentic chat is a multi-turn conversation with context preservation
 - Perpetual free tier
 - Credit card required
 
@@ -67,7 +57,8 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 **Free Access to Pro-Grade Models:**
 - **Vendor limit:** 25 credits/month
-- **Estimate:** ~0.4h/month across OpenAI, Anthropic, Google, xAI models
+- **Estimate:** ~0.4h/month across OpenAI, Anthropic, Google, xAI models [3]
+- **Note:** Each credit = one prompt interaction (regardless of AI actions taken)
 - Credit card required
 
 **Links:** [Pricing](https://windsurf.com/pricing)
@@ -121,9 +112,9 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 **Paid Tiers:**
 - **Vendor limits:** 2,500 requests (Pro), 10,000 requests (Turbo), 50,000 requests (Lightspeed)
-- **Pro ($15/mo):** ~42h/month
-- **Turbo ($40/mo):** ~167h/month
-- **Lightspeed ($200/mo):** ~833h/month
+- **Pro ($15/mo):** ~42h/month [1]
+- **Turbo ($40/mo):** ~167h/month [1]
+- **Lightspeed ($200/mo):** ~833h/month [1]
 - Pay-as-you-go available for overages
 
 **Links:** [Pricing](https://www.warp.dev/pricing)
@@ -144,10 +135,10 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 **Paid Access Only:**
 - **Vendor limits:** 300 requests (Pro/Business), 1,500 requests (Pro+), 1,000 requests (Enterprise)
-- **Pro ($10/mo):** ~5h/month
-- **Pro+ ($39/mo):** ~25h/month
-- **Business ($19/user/mo):** ~5h/user/month
-- **Enterprise ($39/user/mo):** ~17h/user/month
+- **Pro ($10/mo):** ~5h/month [1]
+- **Pro+ ($39/mo):** ~25h/month [1]
+- **Business ($19/user/mo):** ~5h/user/month [1]
+- **Enterprise ($39/user/mo):** ~17h/user/month [1]
 - Overage billing available at $0.04/request
 
 **Links:** [Plans Details](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)
@@ -158,7 +149,7 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 **Paid Tiers:**
 - **Vendor limits:** 500 credits (Pro), higher limits (Teams/Enterprise)
-- **Pro ($15/mo):** ~8.3h/month
+- **Pro ($15/mo):** ~8.3h/month [3]
 - **Teams ($30/user/mo):** Higher limits (undisclosed)
 - **Enterprise ($60+/user/mo):** Higher limits (undisclosed)
 
@@ -170,7 +161,7 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 **Paid Tiers:**
 - **Vendor limits:** 100 credits (Pro), higher limits (Teams)
-- **Pro ($25/mo):** ~1.7h/month
+- **Pro ($25/mo):** ~1.7h/month [3]
 - **Teams ($30/mo):** Higher limits (undisclosed)
 
 **Links:** [Messaging Limits](https://docs.lovable.dev/user-guides/messaging-limits)
@@ -181,8 +172,8 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 **Paid Tiers:**
 - **Vendor limits:** 10M tokens ($20/mo), 120M tokens ($200/mo)
-- **$20/mo:** ~1,000h/month
-- **$200/mo:** ~12,000h/month
+- **$20/mo:** ~1,000h/month [2]
+- **$200/mo:** ~12,000h/month [2]
 
 **Links:** [Token Documentation](https://support.bolt.new/account-and-subscription/tokens)
 
@@ -210,7 +201,7 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 **Free Access to Unspecified Models:**
 - **Vendor limit:** 5 credits/day, 30/month cap
-- **Estimate:** ~0.5h/month
+- **Estimate:** ~0.5h/month [3]
 - Models not publicly enumerated
 - Credit card required
 
@@ -222,7 +213,7 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 **Free Access to Unspecified Models:**
 - **Vendor limit:** 1M tokens/month
-- **Estimate:** ~100h/month
+- **Estimate:** ~100h/month [2]
 - Specific model not publicly specified
 - Credit card required
 
@@ -243,4 +234,14 @@ Running open-weight frontier models locally provides unlimited coding assistance
 ---
 
 > Know the official limits or models? Share a link in an issue or PR to update the information.
+
+---
+
+## Methodology / Assumptions
+
+- **Goal**: Compare agentic coding systems by their access to frontier models.
+- **[1] Requests to hours**: 60 requests ≈ 1 AI-assisted coding hour (based on real-world task simulation).
+- **[2] Tokens to hours**: ~10k tokens ≈ 1 coding hour (when vendors publish tokens, not requests).
+- **[3] Chats/Credits to hours**: Multi-turn agentic chats and prompt credits are assumed equivalent to single requests for estimation purposes.
+- If you spot an error or missing source link, please open an issue or a pull request.
 
