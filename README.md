@@ -25,39 +25,171 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ---
 
-## Free access to frontier models (most generous → least)
+## Agentic coding tools
 
-| Tool | Free Premium Hours | Models used (frontier vs fallback) | Model switching / available models | Notes |
-|---|---:|---|---|---|
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | ≈1.7 h/day (100 req/day) → ≈51 h/month | Primary: Gemini 2.5 Pro; fallback: auto-switch to Gemini 2.5 Flash after Pro daily quota | Google models (Gemini family) via built-in auth; can also use [Google AI Studio](https://ai.google.dev/gemini-api/docs/pricing) or [Vertex AI](https://cloud.google.com/gemini/pricing) keys | Free tier provides ≈100 daily requests for Gemini 2.5 Pro, with a fallback to Gemini Flash which has a much higher limit (1000+ RPD). The Pro limit provides ≈1.5-3 hours of continuous coding. [Rate limits documentation](https://ai.google.dev/gemini-api/docs/rate-limits) |
-| [Warp](https://warp.dev/) | ≈2.5 h/month (150 AI requests/month) | Claude Sonnet 4, OpenAI o3, Gemini 2.5 Pro (frontier) | Multiple providers (Claude, OpenAI, Google) in terminal; model picker available | Free: 150 AI requests/month for frontier models; Pro $15/month (2,500 requests); Turbo $40/month (10,000 requests); Lightspeed $200/month (50,000 requests). Pay-as-you-go for overages. [Pricing details](https://www.warp.dev/pricing) |
-| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | ≈0.8 h/month (50 agent chats/month) | Anthropic Claude Sonnet 4 (frontier) | Claude family inside Q; cross-provider switching not supported | Perpetual Free Tier with 50 agentic chats/month; Pro tier unlimited chats at $19/month. [Pricing details](https://aws.amazon.com/q/developer/pricing/) |
-| [Windsurf](https://windsurf.com/) | ≈0.4 h/month (25 prompt credits/month) | Free credits work with all frontier models (OpenAI, Anthropic, Google, xAI) | Multiple providers (OpenAI, Anthropic, Google, xAI) inside Windsurf | Free: 25 prompt credits/month for all frontier models; Pro $15/month (500 credits); Teams $30/user/month; Enterprise $60+/user/month. [Pricing details](https://windsurf.com/pricing) |
-| [AWS Kiro](https://kiro.dev/) | Preview free with daily limits; pricing TBD | Claude Sonnet 4 / 3.7 | Claude family in preview; cross-provider not announced | Free during preview with waitlist. Initially planned tiered pricing (Free 50/Pro 1000/Pro+ 3000 interactions) but AWS removed pricing details, stating "updated pricing will be shared soon." [Introduction blog](https://kiro.dev/blog/introducing-kiro/) |
+---
+### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
+
+**Free Tier:**
+*   **Pro-grade usage:** ~1.7h/day of Gemini 2.5 Pro (est.)
+*   **Fallback usage:** ~15h/day of Gemini 2.5 Flash (est.)
+*   **Notes:** Free tier provides ≈100 daily requests for the Pro model before falling back to Flash.
+
+**Paid Tiers (via Google AI Studio / Vertex AI):**
+*   **Pay-as-you-go:** Removes daily request limits and offers higher rate limits (e.g., 60 RPM). Pricing is per-token.
+*   **Notes:** Requires a Google Cloud project with billing enabled to use alternative API keys.
+
+**Links:** [Rate Limits](https://ai.google.dev/gemini-api/docs/rate-limits) | [Pricing](https://ai.google.dev/gemini-api/docs/pricing)
+---
+
+### [Warp](https://warp.dev/)
+
+**Free Tier:**
+*   **Pro-grade usage:** ~2.5h/month across all frontier models (est.)
+*   **Notes:** Free tier provides 150 AI requests per month, which can be used with Claude Sonnet 4, OpenAI o3, or Gemini 2.5 Pro.
+
+**Paid Tiers:**
+*   **Pro ($15/mo):** ~42h/month (est., 2,500 requests)
+*   **Turbo ($40/mo):** ~167h/month (est., 10,000 requests)
+*   **Lightspeed ($200/mo):** ~833h/month (est., 50,000 requests)
+*   **Notes:** Pay-as-you-go available for overages.
+
+**Links:** [Pricing](https://www.warp.dev/pricing)
+---
+
+### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
+
+**Free Tier:**
+*   **Pro-grade usage:** ~0.8h/month of Claude Sonnet 4 (est.)
+*   **Notes:** Perpetual free tier includes 50 agentic chats per month.
+
+**Paid Tiers:**
+*   **Pro ($19/mo):** Unlimited chats.
+
+**Links:** [Pricing](https://aws.amazon.com/q/developer/pricing/)
+---
+
+### [Windsurf](https://windsurf.com/)
+
+**Free Tier:**
+*   **Pro-grade usage:** ~0.4h/month across all frontier models (est.)
+*   **Notes:** Free tier provides 25 prompt credits per month, which can be used with models from OpenAI, Anthropic, Google, and xAI.
+
+**Paid Tiers:**
+*   **Pro ($15/mo):** ~8.3h/month (est., 500 credits)
+*   **Teams ($30/user/mo):** Higher limits.
+*   **Enterprise ($60+/user/mo):** Higher limits.
+
+**Links:** [Pricing](https://windsurf.com/pricing)
+---
+
+### [AWS Kiro](https://kiro.dev/)
+
+**Free Tier:**
+*   **Pro-grade usage:** Free during preview with daily limits (models: Claude Sonnet 4 / 3.7).
+
+**Paid Tiers:**
+*   Pricing is not yet available.
+*   **Notes:** Previously announced tiers (Free 50/Pro 1000/Pro+ 3000 interactions) were removed.
+
+**Links:** [Introduction Blog](https://kiro.dev/blog/introducing-kiro/)
+---
+
 
 > Limits change fast. If you see a mistake, a newer quota/model, or want to add a new tool, open an issue or PR with a source. New tool contributions are welcomed!
 
 ---
 
-## Tools with free tier but unclear frontier model usage limits
+## Tools with unclear free tier limits
 
-| Tool | Free Premium Hours | Models used (frontier vs fallback) | Model switching / available models | Notes |
-|---|---:|---|---|---|
-| [Cursor](https://cursor.com/) | Unknown ("limited agent requests") | Multiple frontier models available (e.g., Claude Sonnet/Opus, Gemini 2.5 Pro, GPT-4.x, o3) | Multiple providers; own keys supported; model picker in app | Hobby (free): limited agent requests and tab completions; Pro $20/month (extended agent limits); Ultra $200/month (20x usage); Teams $40/user/month. [Pricing details](https://cursor.com/en/pricing) |
-| [Lovable](https://lovable.dev/) | ≈0.5 h/month (5 credits/day, 30/month cap) | Models not enumerated publicly | Vendor-hosted (no public model picker) | Free plan: 5 daily credits, max 30/month; Pro $25/month (100 credits), Teams $30/month (higher limits). [Messaging limits documentation](https://docs.lovable.dev/user-guides/messaging-limits) |
-| [Bolt.new](https://bolt.new/) | ≈100 h/month (1M tokens/month) | Free-plan model not publicly specified | Unknown in app docs | Free plan: 1M tokens/month (resets monthly); paid plans from $20/month (10M tokens) to $200/month (120M tokens). [Token documentation](https://support.bolt.new/account-and-subscription/tokens) |
-| [v0.dev](https://v0.dev/) | Model-dependent (Free includes $5 credits/month) | v0 models (routing varies) | v0 models (no cross-provider own-keys in app) | Credit-based billing: Free $5/month, Premium $20/month ($20 credits), Team $30/user/month ($30 credits). [Updated pricing blog](https://vercel.com/blog/improved-v0-pricing-5luSrdRUJsRvf1kXWoYGxh) |
+---
+### [Cursor](https://cursor.com/)
+
+**Free Tier:**
+*   **Pro-grade usage:** Unknown ("limited agent requests").
+*   **Notes:** Provides access to multiple frontier models (e.g., Claude Sonnet/Opus, Gemini 2.5 Pro, GPT-4.x, o3).
+
+**Paid Tiers:**
+*   **Pro ($20/mo):** Extended agent limits.
+*   **Ultra ($200/mo):** 20x usage of Pro.
+*   **Teams ($40/user/mo):** Custom limits.
+
+**Links:** [Pricing](https://cursor.com/en/pricing)
+---
+
+### [Lovable](https://lovable.dev/)
+
+**Free Tier:**
+*   **Pro-grade usage:** ~0.5h/month (est.)
+*   **Notes:** Free plan provides 5 daily credits with a cap of 30 per month. Models used are not publicly enumerated.
+
+**Paid Tiers:**
+*   **Pro ($25/mo):** ~1.7h/month (est., 100 credits)
+*   **Teams ($30/mo):** Higher limits.
+
+**Links:** [Messaging Limits](https://docs.lovable.dev/user-guides/messaging-limits)
+---
+
+### [Bolt.new](https://bolt.new/)
+
+**Free Tier:**
+*   **Pro-grade usage:** ~100h/month (est., 1M tokens).
+*   **Notes:** The specific model used in the free plan is not publicly specified.
+
+**Paid Tiers:**
+*   **$20/mo:** ~1000h/month (est., 10M tokens).
+*   **$200/mo:** ~12000h/month (est., 120M tokens).
+
+**Links:** [Token Documentation](https://support.bolt.new/account-and-subscription/tokens)
+---
+
+### [v0.dev](https://v0.dev/)
+
+**Free Tier:**
+*   **Usage:** $5 in credits per month.
+*   **Notes:** Credit usage is model-dependent. v0 uses its own models with varied routing.
+
+**Paid Tiers:**
+*   **Premium ($20/mo):** Includes $20 in credits.
+*   **Team ($30/user/mo):** Includes $30 in credits per user.
+
+**Links:** [Updated Pricing Blog](https://vercel.com/blog/improved-v0-pricing-5luSrdRUJsRvf1kXWoYGxh)
+---
+
 
 > Know the official limits or models? Share a link in an issue or PR to update the table.
 
 ---
 
-## Paid-only with generous usage quotas (no free frontier model access)
+## Paid-only tools
 
-| Tool | Pricing | Models used (frontier vs fallback) | Model switching / available models | Notes |
-|---|---:|---|---|---|
-| [Claude Code](https://www.anthropic.com/claude-code) | Pro $20/month; Max $100/month or $200/month | Pro: Claude Sonnet 4; Max: Opus 4 + Sonnet 4 (Opus limited; falls back to Sonnet after quota) | Claude family | Weekly limits: Pro 40-80h Sonnet 4; Max $100 (140-280h Sonnet 4, 15-35h Opus 4); Max $200 (240-480h Sonnet 4, 24-40h Opus 4). [Pricing details](https://www.anthropic.com/pricing) |
-| [GitHub Copilot](https://github.com/features/copilot/plans) | Pro $10/month; Pro+ $39/month; Business $19/user/month; Enterprise $39/user/month | Premium requests route to frontier models (varies by feature) | GitHub-managed models (no external own-keys for the agent) | Monthly frontier request limits: Pro (300 req ≈ 5h), Pro+ (1500 req ≈ 25h), Business (300 req/user ≈ 5h/user), Enterprise (1000 req/user ≈ 17h/user). Overage billing $0.04/request. [Plans details](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot) |
+---
+### [Claude Code](https://www.anthropic.com/claude-code)
 
+**Free Tier:**
+*   None
 
+**Paid Tiers:**
+*   **Pro ($20/mo):** 40-80h/week of Claude Sonnet 4.
+*   **Max ($100/mo):** 140-280h/week of Sonnet 4, plus 15-35h/week of Opus 4.
+*   **Max ($200/mo):** 240-480h/week of Sonnet 4, plus 24-40h/week of Opus 4.
+*   **Notes:** Usage limits are weekly and based on Anthropic's own hour estimations.
+
+**Links:** [Pricing](https://www.anthropic.com/pricing)
+---
+
+### [GitHub Copilot](https://github.com/features/copilot/plans)
+
+**Free Tier:**
+*   None
+
+**Paid Tiers:**
+*   **Pro ($10/mo):** ~5h/month (est., 300 requests).
+*   **Pro+ ($39/mo):** ~25h/month (est., 1500 requests).
+*   **Business ($19/user/mo):** ~5h/user/month (est., 300 requests/user).
+*   **Enterprise ($39/user/mo):** ~17h/user/month (est., 1000 requests/user).
+*   **Notes:** Overage billing is available at $0.04/request.
+
+**Links:** [Plans Details](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)
+---
 
