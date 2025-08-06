@@ -1,6 +1,22 @@
 **Last updated: August 6, 2025** • PRs/issues welcome
 
+**Disclaimer:** No affiliation with any vendor. All trademarks belong to their owners. Information is for research; accuracy not guaranteed; limits/pricing change frequently.
+
 # The "free" in "agentic AI coding": tricky quotas, short pro-grade access, vendor lock-in, card wall, and other caveats
+
+## Intro
+
+In this list, "free" means free in the monetary sense only. It's about how much access you get to frontier pro-grade models (LLMs) without paying money or by paying money. It does not cover the other potential costs of AI coding—especially agentic AI coding—such as unexpected bugs, security issues, licensing risks, or data-sharing risks.
+
+For many tools, the free allowance for pro-grade models is very small. Once you use it up, the system switches you over to cheaper basic models. Some tools only allow their own models, creating vendor lock-in.
+
+Local models are listed first because they avoid quotas, fallbacks, lock-in, and data-sharing risks altogether. With a setup like Ollama running an open-weight model, and tools such as Aider, Cline, or Continue, you can work entirely on your own machine with no API caps, no forced routing to specific vendors, and no code leaving your system.
+
+The rest of the list covers hosted tools, showing their published quotas, whether they require a credit card, whether they lock you into their own models, and links to the official pricing or rate-limit pages. Where possible, limits are estimated in rough "coding hours" so they can be compared on similar terms.
+
+This list is not an endorsement of any of the tools mentioned. It's documentation of what is currently available. If you find a mistake, please make a PR or create an issue.
+
+---
 
 **1.** [Local Models](#local-models-completely-free) _(completely free)_  
 
@@ -28,8 +44,10 @@ Running open-weight frontier models locally provides unlimited coding assistance
 - **Vendor limit:** 100 requests/day for Gemini 2.5 Pro
 - **Estimate:** ~1.7h/day (~50h/month) [1]
 - **Fallback:** 1,500 requests/day for Gemini 2.5 Flash (~25h/day, ~750h/month) [1]
+- **Credit card:** Not required
+- **Model flexibility:** Google models only
+- **Quota exhaustion:** Switches to paid rates after free quota
 - Terms apply when registered with individual Google account
-- No credit card required
 
 **Links:** [Rate Limits](https://ai.google.dev/gemini-api/docs/rate-limits) | [Pricing](https://ai.google.dev/gemini-api/docs/pricing)
 
@@ -40,7 +58,10 @@ Running open-weight frontier models locally provides unlimited coding assistance
 **Free Access to Pro-Grade Models:**
 - **Vendor limit:** 150 requests/month
 - **Estimate:** ~2.5h/month across Claude Sonnet 4, OpenAI o3, Gemini 2.5 Pro [1]
-- No credit card required
+- **Credit card:** Not specified
+- **Model flexibility:** Multiple providers (Claude, OpenAI, Gemini)
+- **Quota exhaustion:** Pay-as-you-go overages available
+- No credit card required for basic signup
 
 **Links:** [Pricing](https://www.warp.dev/pricing)
 
@@ -51,9 +72,11 @@ Running open-weight frontier models locally provides unlimited coding assistance
 **Free Access to Pro-Grade Models:**
 - **Vendor limit:** 50 agentic chats/month
 - **Estimate:** ~0.8h/month of Claude Sonnet 4 [3]
+- **Credit card:** Required
+- **Model flexibility:** Latest Claude models (AWS-hosted)
+- **Quota exhaustion:** Must upgrade to Pro for continued access
 - **Note:** Each agentic chat is a multi-turn conversation with context preservation
 - Perpetual free tier
-- Credit card required
 
 **Links:** [Pricing](https://aws.amazon.com/q/developer/pricing/)
 
@@ -64,8 +87,10 @@ Running open-weight frontier models locally provides unlimited coding assistance
 **Free Access to Pro-Grade Models:**
 - **Vendor limit:** 25 credits/month
 - **Estimate:** ~0.4h/month across OpenAI, Anthropic, Google, xAI models [3]
+- **Credit card:** Required
+- **Model flexibility:** Multiple providers (OpenAI, Claude, Gemini, xAI)
+- **Quota exhaustion:** Can purchase add-on credits to continue
 - **Note:** Each credit = one prompt interaction (regardless of AI actions taken)
-- Credit card required
 
 **Links:** [Pricing](https://windsurf.com/pricing)
 
@@ -76,8 +101,10 @@ Running open-weight frontier models locally provides unlimited coding assistance
 **Free Access to Pro-Grade Models:**
 - **Vendor limit:** Daily limits (undisclosed)
 - **Estimate:** Unknown
-- Claude Sonnet 4 / 3.7 (preview period)
-- No credit card required during preview
+- **Credit card:** Not required (preview period)
+- **Model flexibility:** Claude models only (AWS-hosted)
+- **Quota exhaustion:** Unknown (preview period)
+- Claude Sonnet 4 / 3.7 available during preview
 
 **Links:** [Introduction Blog](https://kiro.dev/blog/introducing-kiro/)
 
@@ -88,9 +115,11 @@ Running open-weight frontier models locally provides unlimited coding assistance
 **Free Access to Pro-Grade Models:**
 - **Vendor limit:** 50 chats + 2,000 completions/month
 - **Estimate:** ~0.8h/month of agent interactions [1]
+- **Credit card:** Not required
+- **Model flexibility:** Multiple providers (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)
+- **Quota exhaustion:** Limited to basic features after quota
 - **Models:** GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash
 - **Note:** Agent Mode with autonomous multi-step coding, tool calling, iterative refinement
-- No credit card required
 
 **Links:** [Plans Details](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot) | [Agent Mode](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)
 
@@ -101,9 +130,11 @@ Running open-weight frontier models locally provides unlimited coding assistance
 **Free Access to Pro-Grade Models:**
 - **Vendor limit:** Free for all ChatGPT users with usage limits during peak times
 - **Estimate:** Variable based on demand (Plus: $5 API credits, Pro: $50 API credits monthly)
+- **Credit card:** Not required for basic access
+- **Model flexibility:** OpenAI models only
+- **Quota exhaustion:** Rate limiting during high demand, paid subscribers get priority
 - **Models:** codex-1 (o3-optimized), codex-mini-latest
 - **Note:** Autonomous multi-task execution in secure cloud sandboxes
-- Credit card not required for basic access
 
 **Links:** [GitHub Repo](https://github.com/openai/codex) | [Help Center](https://help.openai.com/en/articles/11381614-codex-cli-and-sign-in-with-chatgpt)
 
@@ -114,8 +145,10 @@ Running open-weight frontier models locally provides unlimited coding assistance
 **Free Access to Pro-Grade Models:**
 - **Vendor limit:** "Limited agent requests" (undisclosed)
 - **Estimate:** Unknown
+- **Credit card:** Required
+- **Model flexibility:** Multiple providers (Claude, OpenAI, Gemini)
+- **Quota exhaustion:** Asked to upgrade or switch to unlimited model
 - Access to Claude Sonnet/Opus, Gemini 2.5 Pro, GPT-4.x, o3
-- Credit card required
 
 **Links:** [Pricing](https://cursor.com/en/pricing)
 
