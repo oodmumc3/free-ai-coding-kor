@@ -2,12 +2,11 @@
 
 **Disclaimer:** No affiliation with any vendor. All trademarks belong to their owners. Information is for research; accuracy not guaranteed; limits/pricing change frequently.
 
-# A Comparison of Free Tiers for Pro-Grade LLMs in Agentic AI Coding Tools - ranked by the most generous 
+# The "Free" in Agentic AI Coding: A Ranked Comparison of Pro-Grade LLM Access
 
 ## Intro
 
-This document compares various agentic AI coding tools based on their free access to professional-grade models. The list is categorized into local models, tools with free access to pro-grade models, paid tiers, and tools with free access to basic models.
-This document compares free tiers for agentic AI coding tools, focusing on access to pro-grade LLMs like Claude Sonnet 4, Gemini 2.5 Pro, and GPT-4o. "Free" refers to monetary cost, and the comparison includes details on vendor limits, estimated coding hours, and model flexibility. The list is for informational purposes, with community contributions encouraged for accuracy.
+This document compares free tiers for agentic AI coding tools, focusing on access to pro-grade LLMs (e.g., Claude Sonnet 4, Gemini 2.5 Pro, o3). While "free" means no monetary cost, this guide highlights the nuances of what's available, including details on vendor limits, estimated coding hours, and model flexibility. The list is for informational purposes, with community contributions encouraged for accuracy, and is ranked from most to least generous.
 
 ---
 
