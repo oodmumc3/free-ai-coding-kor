@@ -1,8 +1,14 @@
+**Last updated: August 6, 2025** • Free offerings change often - **⭐ star to return later** • PRs welcome
+
 # List of agentic coding tools with free access to pro-grade models
 
-Last verified: August 5, 2025 • PRs welcome • ⭐ Star if useful!
+[Free Access to Pro-Grade Models](#free-access-to-pro-grade-models)  
+Ordered from most generous to least 
 
-This list compares agentic coding systems (IDE and CLI) organized by their access to frontier models: free pro-grade access, paid pro-grade tiers, and basic model access.
+[Paid Pro-Grade Tiers](#paid-pro-grade-tiers)  
+Ordered by most hours of coding for the buck
+
+[Free Basic Model Access](#basic-model-access)  
 
 ---
 
@@ -74,6 +80,32 @@ Running open-weight frontier models locally provides unlimited coding assistance
 - No credit card required during preview
 
 **Links:** [Introduction Blog](https://kiro.dev/blog/introducing-kiro/)
+
+---
+
+### [GitHub Copilot](https://github.com/features/copilot/plans)
+
+**Free Access to Pro-Grade Models:**
+- **Vendor limit:** 50 chats + 2,000 completions/month
+- **Estimate:** ~0.8h/month of agent interactions [1]
+- **Models:** GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash
+- **Note:** Agent Mode with autonomous multi-step coding, tool calling, iterative refinement
+- No credit card required
+
+**Links:** [Plans Details](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot) | [Agent Mode](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)
+
+---
+
+### [OpenAI Codex CLI](https://github.com/openai/codex)
+
+**Free Access to Pro-Grade Models:**
+- **Vendor limit:** Free for all ChatGPT users with usage limits during peak times
+- **Estimate:** Variable based on demand (Plus: $5 API credits, Pro: $50 API credits monthly)
+- **Models:** codex-1 (o3-optimized), codex-mini-latest
+- **Note:** Autonomous multi-task execution in secure cloud sandboxes
+- Credit card not required for basic access
+
+**Links:** [GitHub Repo](https://github.com/openai/codex) | [Help Center](https://help.openai.com/en/articles/11381614-codex-cli-and-sign-in-with-chatgpt)
 
 ---
 
