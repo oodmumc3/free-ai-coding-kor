@@ -6,7 +6,11 @@
 
 ## Intro
 
-This document compares free tiers for agentic AI coding tools, **focusing on free access to pro-grade LLMs (e.g., Claude Sonnet 4, Gemini 2.5 Pro, o3)**. While "free" means no monetary cost, this guide highlights the nuances of what's available, including details on vendor limits, estimated coding hours, and model flexibility. The list is for informational purposes, with community contributions encouraged for accuracy, and is ranked from most to least generous.
+Many tools marketed as offering “free” AI coding only give you a short window on their best (frontier) models before dropping you to cheaper, basic ones. Some lock you into their own LLMs entirely. The limits are described in different ways (requests, credits, tokens), which makes it hard to tell which is actually the most generous.
+
+This list compares those free tiers, ranks them from most to least generous, and includes links to the vendor docs so you can check the fine print yourself. Local models come first, because with Ollama and tools like Aider, Cline, or Continue, you can run high-end models on your own hardware without quotas, lock-in, or data-sharing risks.
+
+It’s not a benchmark; it’s documentation of what’s out there, with enough detail to see the trade-offs.
 
 ---
 
