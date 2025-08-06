@@ -2,19 +2,17 @@
 
 **Disclaimer:** No affiliation with any vendor. All trademarks belong to their owners. Information is for research; accuracy not guaranteed; limits/pricing change frequently.
 
-# The "free" in "agentic AI coding": tricky quotas, short pro-grade access, vendor lock-in, card wall, and other caveats
+# A Comparison of Free Tiers for Agentic AI Coding Tools
 
 ## Intro
 
-In this list, "free" means free in the monetary sense only. It's about how much access you get to frontier pro-grade models (LLMs) without paying money or by paying money. It does not cover the other potential costs of AI coding—especially agentic AI coding—such as unexpected bugs, security issues, licensing risks, or data-sharing risks.
+This document compares various agentic AI coding tools based on their free access to professional-grade models. The list is categorized into local models, tools with free access to pro-grade models, paid tiers, and tools with free access to basic models.
 
-For many tools, the free allowance for pro-grade models is very small. Once you use it up, the system switches you over to cheaper basic models. Some tools only allow their own models, creating vendor lock-in.
+The comparison includes details on vendor limits, estimated coding hours, credit card requirements, and model flexibility. The goal is to provide a clear overview of the available options for developers.
 
-Local models are listed first because they avoid quotas, fallbacks, lock-in, and data-sharing risks altogether. With a setup like Ollama running an open-weight model, and tools such as Aider, Cline, or Continue, you can work entirely on your own machine with no API caps, no forced routing to specific vendors, and no code leaving your system.
+Local models are presented first, as they offer an alternative that is not subject to usage quotas or vendor-specific models. The subsequent sections cover hosted tools, with links to official pricing and rate-limit documentation.
 
-The rest of the list covers hosted tools, showing their published quotas, whether they require a credit card, whether they lock you into their own models, and links to the official pricing or rate-limit pages. Where possible, limits are estimated in rough "coding hours" so they can be compared on similar terms.
-
-This list is not an endorsement of any of the tools mentioned. It's documentation of what is currently available. If you find a mistake, please make a PR or create an issue.
+This list is for informational purposes and is not an endorsement of any specific tool. Contributions and corrections are welcome via pull requests or issues.
 
 ---
 
