@@ -1,26 +1,26 @@
-**Last updated: August 6, 2025** • Free offerings change often - **⭐ star to return later** • PRs welcome
+**Last updated: August 6, 2025** • PRs/issues welcome
 
-# List of agentic coding tools with free access to pro-grade models
+# The "free" in "agentic AI coding": tricky quotas, short pro-grade access, vendor lock-in, card wall, and other caveats
 
-[Free Access to Pro-Grade Models](#free-access-to-pro-grade-models)  
-Ordered from most generous to least 
+**1.** [Local Models](#local-models-completely-free) _(completely free)_  
 
-[Paid Pro-Grade Tiers](#paid-pro-grade-tiers)  
-Ordered by most hours of coding for the buck
+**2.** [Free Access to Pro-Grade Models](#free-access-to-pro-grade-models) _(ordered from most generous to least)_
 
-[Free Basic Model Access](#basic-model-access)  
+**3.** [Paid Pro-Grade Tiers](#paid-pro-grade-tiers) _(ordered by most hours of coding for the buck)_
+
+**4.** [Free Basic Model Access](#free-access-to-basic-models) _(unspecified/basic models)_  
 
 ---
 
-## Local models (completely free)
+## 1. Local models (completely free)
 
-Running open-weight frontier models locally provides unlimited coding assistance without API costs or usage limits. The best tools for local deployment include **[Cline](https://cline.bot/)** (VS Code extension with Plan/Act modes and MCP support), **[Aider](https://aider.chat/)** (command-line assistant with built-in Git integration), and **[Continue](https://www.continue.dev/)** (open-source VS Code extension supporting 200+ models). All work seamlessly with **[Ollama](https://ollama.com/)** to run frontier models like Qwen3-Coder, DeepSeek Coder V2, Codestral, and GLM-4.5.
+Running open-weight frontier models locally provides unlimited coding assistance without API costs or usage limits. The best tools for local deployment include **[Cline](https://cline.bot/)** (VS Code extension with Plan/Act modes and MCP support), **[Aider](https://aider.chat/)** (command-line assistant with built-in Git integration), and **[Continue](https://www.continue.dev/)** (open-source VS Code extension supporting 200+ models). All work seamlessly with **[Ollama](https://ollama.com/)** to run frontier models like Devstral (24B parameters, optimized for agentic coding), Qwen3-Coder, DeepSeek Coder V2, Codestral, and GLM-4.5.
 
 **Note**: Frontier models require GPUs with substantial RAM/VRAM. See Simon Willison's article on [running GLM-4.5 AIR on his laptop to build Space Invaders](https://simonwillison.net/2025/Jul/29/space-invaders/) for a practical example.
 
 ---
 
-## Free Access to Pro-Grade Models
+## 2. Free Access to Pro-Grade Models
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
@@ -125,7 +125,7 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ---
 
-## Paid Tiers with Pro-Grade Models
+## 3. Paid Tiers with Pro-Grade Models
 
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
@@ -227,7 +227,7 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ---
 
-## Free Access to Basic Models
+## 4. Free Access to Basic Models
 
 ### [Lovable](https://lovable.dev/)
 
