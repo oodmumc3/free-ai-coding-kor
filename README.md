@@ -1,6 +1,6 @@
-**Last updated: August 6, 2025** • PRs/issues welcome • ⭐ Star to come back later
+**Last updated: August 6, 2025** • PRs/issues welcome • ⭐ Star if useful
 
-# The "Free" in Agentic AI Coding: A Ranked Comparison of Pro-Grade LLM Access
+# Which AI coding tools give you the most free access to pro-graded models?
 
 ## Intro
 
