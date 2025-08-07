@@ -1,34 +1,32 @@
-**Last updated: August 6, 2025** • PRs/issues welcome • ⭐ Star if useful
+**Last updated: August 7, 2025** • PRs/issues welcome • ⭐ Star to come back later
 
-# Which AI coding tools give you the most free access to pro-graded models?
+# How much free‑tier access do AI coding tools provide to pro‑grade LLMs (e.g., GPT‑5, Claude Sonnet 4, Gemini 2.5 Pro)
+
+**UPD August 7**: Current list of AI tools providing access to the GPT-5 models family:
+- [Cursor](#cursor) — GPT-5 offered with free credits for paying users during launch week
+
+The list is being updating... 
+Please submit an issue or PR if you know of others.
 
 ## Intro
 
-Many tools marketed as offering “free” AI coding only give you a short window on their best (frontier) models before dropping you to cheaper, basic ones. The limits are described in different ways (requests, credits, tokens), which makes it hard to tell which is actually the most generous.
+Many tools advertise “free” AI coding, but most only let you use the top “frontier” or “pro-grade” models for a short time before switching you to more basic ones. Because each tool describes its limits differently (requests, credits, tokens), it’s tricky to compare which is actually the most generous.
 
-This list compares those free tiers, ranks them from most to least generous, and includes links to the vendor docs so you can check the fine print yourself. Local models come first, because with Ollama and tools like Aider, Cline, or Continue, you can run high-end models on your own hardware without quotas, lock-in, or data-sharing risks.
-
----
-
-**1.** [Local Models](#local-models-completely-free) _(completely free)_  
-
-**2.** [Free Access to Pro-Grade Models](#free-access-to-pro-grade-models) _(ordered from most generous to least)_
-
-**3.** [Paid Pro-Grade Tiers](#paid-pro-grade-tiers) _(ordered by most hours of coding for the buck)_
-
-**4.** [Free Basic Model Access](#free-access-to-basic-models) _(unspecified/basic models)_  
+This list compares those free tiers, ranks them from most to least generous, and includes links to the vendor docs so you can check the fine print yourself.
 
 ---
 
-## 1. Local models (completely free)
+**1.** [Free Access to Pro-Grade Models](#free-access-to-pro-grade-models) _(ordered from most generous to least)_
 
-Running open-weight frontier models locally provides unlimited coding assistance without API costs or usage limits. The best tools for local deployment include **[Cline](https://cline.bot/)** (VS Code extension with Plan/Act modes and MCP support), **[Aider](https://aider.chat/)** (command-line assistant with built-in Git integration), and **[Continue](https://www.continue.dev/)** (open-source VS Code extension supporting 200+ models). All work seamlessly with **[Ollama](https://ollama.com/)** to run frontier models like Devstral (24B parameters, optimized for agentic coding), Qwen3-Coder, DeepSeek Coder V2, Codestral, and GLM-4.5.
+**2.** [Paid Pro-Grade Tiers](#paid-pro-grade-tiers) _(ordered by most hours of coding for the buck)_
 
-**Note**: Frontier models require GPUs with substantial RAM/VRAM. See Simon Willison's article on [running GLM-4.5 AIR on his laptop to build Space Invaders](https://simonwillison.net/2025/Jul/29/space-invaders/) for a practical example.
+**3.** [Free Basic Model Access](#free-access-to-basic-models) _(unspecified/basic models)_
+
+**4.** [Local Models](#local-models) _(free inference, requires GPU investment)_  
 
 ---
 
-## 2. Free Access to Pro-Grade Models
+## 1. Free Access to Pro-Grade Models
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
@@ -43,9 +41,23 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ---
 
+### [Cerebras](https://cloud.cerebras.ai/)
+
+**~1.7h/day (~50h/month) of Qwen3-Coder/Llama 3.1 coding**
+- 100 requests/day free tier
+- Models: Qwen3-Coder-480B (matches Claude Sonnet 4 performance), Llama 3.1 70B, Qwen3-32B, Qwen3-235B
+- OpenAI-compatible API (works with Cursor, Continue.dev, Cline, etc.)
+- Ultra-fast inference: 2,000 tokens/second (40x faster than typical providers)
+- No credit card required
+- Note: Cerebras provides API access only, not software - integrate with existing IDEs/CLIs
+
+**Links:** [Pricing](https://www.cerebras.ai/pricing) | [API Docs](https://inference-docs.cerebras.ai/) | [Cline Integration](https://inference-docs.cerebras.ai/integrations/cline)
+
+---
+
 ### [Warp](https://warp.dev/)
 
-**~2.5h/month across Claude Sonnet 4, OpenAI o3, Gemini 2.5 Pro**
+**~2.5h/month across Claude Sonnet 4, OpenAI GPT-5, Gemini 2.5 Pro**
 - 150 requests/month limit
 - Multiple providers (Claude, OpenAI, Gemini)
 - No credit card required for basic signup
@@ -93,6 +105,19 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ---
 
+### [Cursor](https://cursor.com/)
+
+**Unknown duration with basic models**
+- **GPT-5 offered with free credits for paying users during launch week**
+- "Limited agent requests" (undisclosed)
+- Multiple providers (OpenAI, Claude, Gemini)
+- Credit card required
+- Asked to upgrade or switch to unlimited model after quota
+
+**Links:** [Pricing](https://cursor.com/en/pricing)
+
+---
+
 ### [OpenAI Codex CLI](https://github.com/openai/codex)
 
 **Variable duration based on demand (codex-1, codex-mini-latest)**
@@ -106,15 +131,6 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ---
 
-### [Cursor](https://cursor.com/)
-
-**Unknown duration with Claude Sonnet/Opus, Gemini 2.5 Pro, GPT-4.x, o3**
-- "Limited agent requests" (undisclosed)
-- Multiple providers (Claude, OpenAI, Gemini)
-- Credit card required
-- Asked to upgrade or switch to unlimited model after quota
-
-**Links:** [Pricing](https://cursor.com/en/pricing)
 
 ---
 
@@ -134,7 +150,7 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ---
 
-## 3. Paid Tiers with Pro-Grade Models
+## 2. Paid Tiers with Pro-Grade Models
 
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
@@ -188,6 +204,19 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ---
 
+### [Cerebras](https://cloud.cerebras.ai/)
+
+**Code Pro ($50/mo):** ~800h/month of Qwen3-Coder at 2,000 tokens/sec
+**Code Max ($200/mo):** Unlimited usage for heavy workflows
+- 24M tokens/day on Pro tier
+- Models: Qwen3-Coder-480B (SOTA open-source), Llama 3.1 70B
+- OpenAI-compatible API for all major IDEs
+- Custom ASIC hardware (not GPU) for ultra-fast inference
+
+**Links:** [Pricing](https://www.cerebras.ai/pricing) | [Blog](https://www.cerebras.ai/blog/introducing-cerebras-code)
+
+---
+
 ### [Lovable](https://lovable.dev/)
 
 **Pro ($25/mo):** ~1.7h/month
@@ -208,6 +237,9 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ### [Cursor](https://cursor.com/)
 
+**GPT-5 offered with free credits for paying users during launch week**
+
+
 **Pro ($20/mo):** Unknown estimate
 **Ultra ($200/mo):** Unknown estimate
 **Teams ($40/user/mo):** Unknown estimate
@@ -220,7 +252,7 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ---
 
-## 4. Free Access to Basic Models
+## 3. Free Access to Basic Models
 
 ### [Lovable](https://lovable.dev/)
 
@@ -262,10 +294,34 @@ Running open-weight frontier models locally provides unlimited coding assistance
 ## Methodology / Assumptions
 
 - **Goal**: Compare agentic coding systems by their access to frontier models.
+- **What qualifies a model as "pro-grade"?** For this comparison, models must achieve ≥60% on SWE-bench Verified, demonstrating real-world software engineering capability. Current qualifying models: GPT-5 (74.9%), Claude Opus 4.1 (74.5%), Claude Sonnet 4 (72.7%), GPT-5 mini (71.0%), Qwen3-Coder-480B (69.6%), and Gemini 2.5 Pro (63.2%).
 - **[1] Requests to hours**: 60 requests ≈ 1 AI-assisted coding hour (based on real-world task simulation).
 - **[2] Tokens to hours**: ~10k tokens ≈ 1 coding hour (when vendors publish tokens, not requests).
 - **[3] Chats/Credits to hours**: Multi-turn agentic chats and prompt credits are assumed equivalent to single requests for estimation purposes.
 - If you spot an error or missing source link, please open an issue or a pull request.
+
+---
+
+## Pro-Grade Models Benchmark Comparison
+
+Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-world coding tasks.
+
+| Model | Provider | SWE-bench Verified | Context Window | Notes |
+|-------|----------|-------------------|----------------|-------|
+| GPT-5 | OpenAI | 74.9% | 256K | Adaptive reasoning system, 6x fewer hallucinations than o3 |
+| Claude Opus 4.1 | Anthropic | 74.5% | 200K (64K thinking) | Extended thinking capability, multi-file refactoring |
+| Claude Sonnet 4 | Anthropic | 72.7% (80.2% w/ parallel) | 200K | Best performance with test-time compute |
+| GPT-5 mini | OpenAI | 71.0% | 256K | Cost-effective variant of GPT-5 |
+| Qwen3-Coder-480B | Alibaba | 69.6% (interactive) / 67.0% (single) | 256K native / 1M extended | Best open-source, matches Claude Sonnet 4 |
+| Gemini 2.5 Pro | Google | 63.2% | 2M | Excellent multi-language support, largest context window |
+
+---
+
+## 4. Local Models
+
+Running open-weight frontier models locally provides unlimited coding assistance without API costs or usage limits. Popular tools for local deployment include **[Cline](https://cline.bot/)** (VS Code extension with Plan/Act modes and MCP support), **[Aider](https://aider.chat/)** (command-line assistant with built-in Git integration), and **[Continue](https://www.continue.dev/)** (open-source VS Code extension supporting 200+ models). All work seamlessly with **[Ollama](https://ollama.com/)** to run frontier models like Devstral (24B parameters, optimized for agentic coding), Qwen3-Coder, DeepSeek Coder V2, Codestral, and GLM-4.5.
+
+**Note**: Frontier models require GPUs with substantial RAM/VRAM. See Simon Willison's article on [running GLM-4.5 AIR on his laptop to build Space Invaders](https://simonwillison.net/2025/Jul/29/space-invaders/) for a practical example.
 
 ---
 
