@@ -291,6 +291,14 @@ This list compares those free tiers, ranks them from most to least generous, and
 
 ---
 
+## 4. Local Models
+
+Running open-weight frontier models locally provides unlimited coding assistance without API costs or usage limits. Popular tools for local deployment include **[Cline](https://cline.bot/)** (VS Code extension with Plan/Act modes and MCP support), **[Aider](https://aider.chat/)** (command-line assistant with built-in Git integration), and **[Continue](https://www.continue.dev/)** (open-source VS Code extension supporting 200+ models). All work seamlessly with **[Ollama](https://ollama.com/)** to run frontier models like Devstral (24B parameters, optimized for agentic coding), Qwen3-Coder, DeepSeek Coder V2, Codestral, and GLM-4.5.
+
+**Note**: Frontier models require GPUs with substantial RAM/VRAM. See Simon Willison's article on [running GLM-4.5 AIR on his laptop to build Space Invaders](https://simonwillison.net/2025/Jul/29/space-invaders/) for a practical example.
+
+---
+
 ## Methodology / Assumptions
 
 - **Goal**: Compare agentic coding systems by their access to frontier models.
@@ -314,14 +322,6 @@ Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-w
 | GPT-5 mini | OpenAI | 71.0% | 256K | Cost-effective variant of GPT-5 |
 | Qwen3-Coder-480B | Alibaba | 69.6% (interactive) / 67.0% (single) | 256K native / 1M extended | Best open-source, matches Claude Sonnet 4 |
 | Gemini 2.5 Pro | Google | 63.2% | 2M | Excellent multi-language support, largest context window |
-
----
-
-## 4. Local Models
-
-Running open-weight frontier models locally provides unlimited coding assistance without API costs or usage limits. Popular tools for local deployment include **[Cline](https://cline.bot/)** (VS Code extension with Plan/Act modes and MCP support), **[Aider](https://aider.chat/)** (command-line assistant with built-in Git integration), and **[Continue](https://www.continue.dev/)** (open-source VS Code extension supporting 200+ models). All work seamlessly with **[Ollama](https://ollama.com/)** to run frontier models like Devstral (24B parameters, optimized for agentic coding), Qwen3-Coder, DeepSeek Coder V2, Codestral, and GLM-4.5.
-
-**Note**: Frontier models require GPUs with substantial RAM/VRAM. See Simon Willison's article on [running GLM-4.5 AIR on his laptop to build Space Invaders](https://simonwillison.net/2025/Jul/29/space-invaders/) for a practical example.
 
 ---
 
