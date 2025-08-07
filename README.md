@@ -1,6 +1,6 @@
 Last updated: August 7, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
-## UPD August 7: Current list of AI tools providing access to the GPT-5 models family:#
+## UPD August 7: Current list of AI tools providing access to the GPT-5 models family:
 - [Cursor](https://cursor.com/) — GPT-5 offered with free credits for paying users during launch week
 
 The list is being updating... 
