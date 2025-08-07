@@ -2,6 +2,7 @@ Last updated: August 7, 2025 • PRs/issues welcome • ⭐ Star to come back la
 
 ## UPD August 7: Current list of AI tools providing access to the GPT-5 models family:
 - [Cursor](https://cursor.com/) — GPT-5 offered with free credits for paying users during launch week
+- [Codex CLI](https://github.com/openai/codex) — paid only (pay-as-you-go)
 
 The list is being updating... 
 Please submit an issue or PR if you know of others.
