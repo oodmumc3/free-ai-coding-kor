@@ -10,9 +10,7 @@ _UPD: August 8, the list is still being updated_
 
 ## Problem & Solution
 
-Many AI coding tools claim to be “free,” but most only give access to top, pro-grade models for a short time before switching to basic ones. With each tool describing its limits differently—credits, tokens, requests—it’s hard to compare them fairly.
-
-This list lines them up side-by-side to show which ones are actually the most generous. It assess how much **hours of coding with a pro-graded LLM** you are actually given. 
+Many AI coding tools claim to be “free,” but access to pro-grade models usually runs out fast, then you’re downgraded. Each tool uses different limits (credits, tokens, requests), so fair comparison is hard. This list puts them side by side and shows **how many hours of coding on pro-grade LLMs you actually get for free**.
 
 ### Qualifying Pro‑Grade Models
 Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-world coding tasks. Below is the current list
