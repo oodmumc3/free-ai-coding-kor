@@ -1,12 +1,12 @@
 # Free AI Coding: Where to Use GPT‑5 and Other Pro‑Grade Models for Free
 Last updated: August 8, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
-## Quick Links to (semi)-free GPT‑5 Access
+## Quick Links to GPT‑5 Access
 _UPD: August 8, the list is still being updated_
-- [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface) — GPT-5 access with generous daily qouta during preview
-- [Codex CLI](https://github.com/openai/codex) — free with ChatGPT plus subscription
-- [Cursor](https://cursor.com/) — GPT-5 offered with free credits for paying users during launch week
-- [v0](https://v0.dev/) - v0 Premium is required to access GPT-5 
+- [Rovo Dev CLI](#rovo-dev-cli) — GPT-5 access with generous daily qouta during preview
+- [Codex CLI](#openai-codex-cli) — free with ChatGPT plus subscription
+- [Cursor](#cursor) — GPT-5 offered with free credits for paying users during launch week
+- [v0](#v0dev) - v0 Premium is required to access GPT-5 
 
 ## Problem & Solution
 
@@ -35,6 +35,20 @@ Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-w
 
 ## 1. AI-coding Tools with Free Access to Pro-Grade Models
 _(ordered from most generous to least)_
+
+### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
+
+**~20h/day (~600h/month) of Claude Sonnet coding during beta**
+- GPT-5 access with generous daily quota during preview
+- 5M tokens/day free tier (20M on first day only)
+- Claude-based model (Anthropic provider)
+- No credit card required during beta
+- Token limits reset at midnight UTC
+- Note: Upgrade to Jira Standard/Premium/Enterprise for 20M tokens/day
+
+**Links:** [Documentation](https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/) | [Token Limits](https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/)
+
+---
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
@@ -116,7 +130,7 @@ _(ordered from most generous to least)_
 ### [Cursor](https://cursor.com/)
 
 **Unknown duration with basic models**
-- **GPT-5 offered with free credits for paying users during launch week**
+- GPT-5 offered with free credits for paying users during launch week
 - "Limited agent requests" (undisclosed)
 - Multiple providers (OpenAI, Claude, Gemini)
 - Credit card required
@@ -129,6 +143,7 @@ _(ordered from most generous to least)_
 ### [OpenAI Codex CLI](https://github.com/openai/codex)
 
 **Variable duration based on demand (codex-1, codex-mini-latest)**
+- GPT-5 access available with ChatGPT Plus subscription
 - Free for all ChatGPT users with peak-time limits
 - Autonomous multi-task execution in secure cloud sandboxes
 - OpenAI models only
@@ -139,6 +154,19 @@ _(ordered from most generous to least)_
 
 ---
 
+
+---
+
+### [Kilo Code](https://kilocode.ai/)
+
+**~3h total of Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1 coding**
+- $20 free credits on signup
+- Open source VS Code extension
+- Pay-as-you-go with no markup on model pricing
+- No credit card required for initial credits
+- Supports bringing your own API keys
+
+**Links:** [GitHub](https://github.com/Kilo-Org/kilocode) | [Documentation](https://kilocode.ai/docs/)
 
 ---
 
@@ -246,10 +274,8 @@ _(ordered by most hours of coding for the buck)_
 
 ### [Cursor](https://cursor.com/)
 
-**GPT-5 offered with free credits for paying users during launch week**
-
-
 **Pro ($20/mo):** Unknown estimate
+- GPT-5 offered with free credits for paying users during launch week
 **Ultra ($200/mo):** Unknown estimate
 **Teams ($40/user/mo):** Unknown estimate
 
@@ -289,6 +315,7 @@ __(unspecified/basic models)__
 ### [v0.dev](https://v0.dev/)
 
 **Variable duration with proprietary models (not frontier)**
+- GPT-5 access requires v0 Premium subscription
 - $5 in credits/month limit
 - Uses proprietary models with varied routing
 - Credit card required
@@ -314,7 +341,7 @@ Running open-weight frontier models locally provides unlimited coding assistance
 - **Goal**: Compare agentic coding systems by their access to frontier models.
 - **What qualifies a model as "pro-grade"?** For this comparison, models must achieve ≥60% on SWE-bench Verified, demonstrating real-world software engineering capability. Current qualifying models: GPT-5 (74.9%), Claude Opus 4.1 (74.5%), Claude Sonnet 4 (72.7%), GPT-5 mini (71.0%), Qwen3-Coder-480B (69.6%), and Gemini 2.5 Pro (63.2%).
 - **[1] Requests to hours**: 60 requests ≈ 1 AI-assisted coding hour (based on real-world task simulation).
-- **[2] Tokens to hours**: ~10k tokens ≈ 1 coding hour (when vendors publish tokens, not requests).
+- **[2] Tokens to hours**: ~250k tokens ≈ 1 coding hour (based on real-world AI agent usage data).
 - **[3] Chats/Credits to hours**: Multi-turn agentic chats and prompt credits are assumed equivalent to single requests for estimation purposes.
 - If you spot an error or missing source link, please open an issue or a pull request.
 
@@ -322,4 +349,3 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ## Disclaimer
 No affiliation with any vendor. All trademarks belong to their owners. Information is for research; accuracy not guaranteed; limits/pricing change frequently.
-
