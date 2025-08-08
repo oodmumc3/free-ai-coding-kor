@@ -167,11 +167,6 @@ _(ordered from most generous to least)_
 
 ---
 
-
----
-
----
-
 ### [AWS Kiro](https://kiro.dev/)
 
 > **Unknown duration of Claude Sonnet 4 / 3.7 coding**
