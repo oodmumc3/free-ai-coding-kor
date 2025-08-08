@@ -1,6 +1,7 @@
 Last updated: August 8, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
-## List of AI tools providing (semi)-free access to GPT-5 - UPD August 8, list is being updated
+## List of AI tools providing (semi)-free access to GPT-5
+***UPD August 8***
 - [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface) — GPT-5 access with generous daily qouta during preview
 - [Codex CLI](https://github.com/openai/codex) — free with ChatGPT plus subscription
 - [Cursor](https://cursor.com/) — GPT-5 offered with free credits for paying users during launch week
