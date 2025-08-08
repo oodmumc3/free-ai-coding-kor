@@ -38,7 +38,7 @@ _(ordered from most generous to least)_
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-**~20h/day (~600h/month) of Claude Sonnet coding during beta**
+> **~20h/day (~600h/month) of Claude Sonnet coding during beta**
 - GPT-5 access with generous daily quota during preview
 - 5M tokens/day free tier (20M on first day only)
 - Claude-based model (Anthropic provider)
@@ -52,7 +52,7 @@ _(ordered from most generous to least)_
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
-**~1.7h/day (~50h/month) of Gemini 2.5 Pro coding**
+> **~1.7h/day (~50h/month) of Gemini 2.5 Pro coding**
 - 100 requests/day limit
 - Fallback: ~25h/day with Gemini 2.5 Flash (1,500 requests/day)
 - No credit card required
@@ -65,7 +65,7 @@ _(ordered from most generous to least)_
 
 ### [Cerebras](https://cloud.cerebras.ai/)
 
-**~1.7h/day (~50h/month) of Qwen3-Coder/Llama 3.1 coding**
+> **~1.7h/day (~50h/month) of Qwen3-Coder/Llama 3.1 coding**
 - 100 requests/day free tier
 - Models: Qwen3-Coder-480B (matches Claude Sonnet 4 performance), Llama 3.1 70B, Qwen3-32B, Qwen3-235B
 - OpenAI-compatible API (works with Cursor, Continue.dev, Cline, etc.)
@@ -77,9 +77,22 @@ _(ordered from most generous to least)_
 
 ---
 
+### [Kilo Code](https://kilocode.ai/)
+
+> **~3h total of Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1 coding**
+- $20 free credits on signup
+- Open source VS Code extension
+- Pay-as-you-go with no markup on model pricing
+- No credit card required for initial credits
+- Supports bringing your own API keys
+
+**Links:** [GitHub](https://github.com/Kilo-Org/kilocode) | [Documentation](https://kilocode.ai/docs/)
+
+---
+
 ### [Warp](https://warp.dev/)
 
-**~2.5h/month across Claude Sonnet 4, OpenAI GPT-5, Gemini 2.5 Pro**
+> **~2.5h/month across Claude Sonnet 4, OpenAI GPT-5, Gemini 2.5 Pro**
 - 150 requests/month limit
 - Multiple providers (Claude, OpenAI, Gemini)
 - No credit card required for basic signup
@@ -91,7 +104,7 @@ _(ordered from most generous to least)_
 
 ### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
-**~0.8h/month of Claude Sonnet 4 coding**
+> **~0.8h/month of Claude Sonnet 4 coding**
 - 50 agentic chats/month limit (multi-turn conversations)
 - Latest Claude models (AWS-hosted)
 - Credit card required
@@ -102,21 +115,9 @@ _(ordered from most generous to least)_
 
 ---
 
-### [Windsurf](https://windsurf.com/)
-
-**~0.4h/month across OpenAI, Anthropic, Google, xAI models**
-- 25 credits/month limit (each credit = one prompt interaction)
-- Multiple providers (OpenAI, Claude, Gemini, xAI)
-- Credit card required
-- Can purchase add-on credits to continue
-
-**Links:** [Pricing](https://windsurf.com/pricing)
-
----
-
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-**~0.8h/month of agent interactions (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)**
+> **~0.8h/month of agent interactions (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)**
 - 50 chats + 2,000 completions/month limit
 - Agent Mode with autonomous multi-step coding
 - Multiple providers (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)
@@ -127,22 +128,21 @@ _(ordered from most generous to least)_
 
 ---
 
-### [Cursor](https://cursor.com/)
+### [Windsurf](https://windsurf.com/)
 
-**Unknown duration with basic models**
-- GPT-5 offered with free credits for paying users during launch week
-- "Limited agent requests" (undisclosed)
-- Multiple providers (OpenAI, Claude, Gemini)
+> **~0.4h/month across OpenAI, Anthropic, Google, xAI models**
+- 25 credits/month limit (each credit = one prompt interaction)
+- Multiple providers (OpenAI, Claude, Gemini, xAI)
 - Credit card required
-- Asked to upgrade or switch to unlimited model after quota
+- Can purchase add-on credits to continue
 
-**Links:** [Pricing](https://cursor.com/en/pricing)
+**Links:** [Pricing](https://windsurf.com/pricing)
 
 ---
 
 ### [OpenAI Codex CLI](https://github.com/openai/codex)
 
-**Variable duration based on demand (codex-1, codex-mini-latest)**
+> **Variable duration based on demand (codex-1, codex-mini-latest)**
 - GPT-5 access available with ChatGPT Plus subscription
 - Free for all ChatGPT users with peak-time limits
 - Autonomous multi-task execution in secure cloud sandboxes
@@ -154,25 +154,27 @@ _(ordered from most generous to least)_
 
 ---
 
+### [Cursor](https://cursor.com/)
+
+> **Unknown duration with basic models**
+- GPT-5 offered with free credits for paying users during launch week
+- "Limited agent requests" (undisclosed)
+- Multiple providers (OpenAI, Claude, Gemini)
+- Credit card required
+- Asked to upgrade or switch to unlimited model after quota
+
+**Links:** [Pricing](https://cursor.com/en/pricing)
 
 ---
 
-### [Kilo Code](https://kilocode.ai/)
 
-**~3h total of Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1 coding**
-- $20 free credits on signup
-- Open source VS Code extension
-- Pay-as-you-go with no markup on model pricing
-- No credit card required for initial credits
-- Supports bringing your own API keys
-
-**Links:** [GitHub](https://github.com/Kilo-Org/kilocode) | [Documentation](https://kilocode.ai/docs/)
+---
 
 ---
 
 ### [AWS Kiro](https://kiro.dev/)
 
-**Unknown duration of Claude Sonnet 4 / 3.7 coding**
+> **Unknown duration of Claude Sonnet 4 / 3.7 coding**
 - Daily limits (undisclosed)
 - Claude models only (AWS-hosted)
 - No credit card required (preview period)
@@ -189,14 +191,37 @@ _(ordered from most generous to least)_
 ## 2. Tools with Paid Tiers with Pro-Grade Models
 _(ordered by most hours of coding for the buck)_
 
+### [Cerebras](https://cloud.cerebras.ai/)
+
+**Code Pro ($50/mo):** ~800h/month of Qwen3-Coder at 2,000 tokens/sec
+**Code Max ($200/mo):** Unlimited usage for heavy workflows
+- 24M tokens/day on Pro tier
+- Models: Qwen3-Coder-480B (SOTA open-source), Llama 3.1 70B
+- OpenAI-compatible API for all major IDEs
+- Custom ASIC hardware (not GPU) for ultra-fast inference
+
+**Links:** [Pricing](https://www.cerebras.ai/pricing) | [Blog](https://www.cerebras.ai/blog/introducing-cerebras-code)
+
+---
+
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
-**Pro ($20/mo):** 160-320h/month Sonnet 4
-**Max ($100/mo):** 620-1,260h/month (Sonnet 4 + Opus 4)
-**Max ($200/mo):** 1,056-2,208h/month (Sonnet 4 + Opus 4)
-- Usage limits reset weekly
+**Pro ($20/mo):** 40-80h/week Sonnet 4
+**Max ($100/mo):** 15-35h/week Opus 4 + 140-280h/week Sonnet 4
+**Max ($200/mo):** 24-40h/week Opus 4 + 240-480h/week Sonnet 4
+- Usage limits reset weekly (starting August 28, 2025)
+- Additional 5-hour rolling window limits remain in place
 
 **Links:** [Pricing](https://www.anthropic.com/pricing)
+
+---
+
+### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
+
+**Pro ($19/mo):** Increased limits for agentic requests
+- Usage may be adjusted based on regional factors and usage patterns
+
+**Links:** [Pricing](https://aws.amazon.com/q/developer/pricing/)
 
 ---
 
@@ -208,14 +233,6 @@ _(ordered by most hours of coding for the buck)_
 - Pay-as-you-go available for overages
 
 **Links:** [Pricing](https://www.warp.dev/pricing)
-
----
-
-### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
-
-**Pro ($19/mo):** Unlimited usage
-
-**Links:** [Pricing](https://aws.amazon.com/q/developer/pricing/)
 
 ---
 
@@ -238,19 +255,6 @@ _(ordered by most hours of coding for the buck)_
 **Enterprise ($60+/user/mo):** Higher limits (undisclosed)
 
 **Links:** [Pricing](https://windsurf.com/pricing)
-
----
-
-### [Cerebras](https://cloud.cerebras.ai/)
-
-**Code Pro ($50/mo):** ~800h/month of Qwen3-Coder at 2,000 tokens/sec
-**Code Max ($200/mo):** Unlimited usage for heavy workflows
-- 24M tokens/day on Pro tier
-- Models: Qwen3-Coder-480B (SOTA open-source), Llama 3.1 70B
-- OpenAI-compatible API for all major IDEs
-- Custom ASIC hardware (not GPU) for ultra-fast inference
-
-**Links:** [Pricing](https://www.cerebras.ai/pricing) | [Blog](https://www.cerebras.ai/blog/introducing-cerebras-code)
 
 ---
 
@@ -290,17 +294,6 @@ _(ordered by most hours of coding for the buck)_
 ## 3. Tools with Free Access to Basic Models
 __(unspecified/basic models)__
 
-### [Lovable](https://lovable.dev/)
-
-**~0.5h/month with unspecified models**
-- 5 credits/day, 30/month cap
-- Models not publicly enumerated
-- Credit card required
-
-**Links:** [Messaging Limits](https://docs.lovable.dev/user-guides/messaging-limits)
-
----
-
 ### [Bolt.new](https://bolt.new/)
 
 **~100h/month with unspecified models**
@@ -309,6 +302,17 @@ __(unspecified/basic models)__
 - Credit card required
 
 **Links:** [Token Documentation](https://support.bolt.new/account-and-subscription/tokens)
+
+---
+
+### [Lovable](https://lovable.dev/)
+
+**~0.5h/month with unspecified models**
+- 5 credits/day, 30/month cap
+- Models not publicly enumerated
+- Credit card required
+
+**Links:** [Messaging Limits](https://docs.lovable.dev/user-guides/messaging-limits)
 
 ---
 
