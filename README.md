@@ -1,32 +1,42 @@
+# Free AI Coding: Where to Use GPT‑5 and Other Pro‑Grade Models for Free
 Last updated: August 8, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
-## List of AI tools providing (semi)-free access to GPT-5
-***Updated August 8** — the list is still being updated*
+## Quick Links to (semi)-free GPT‑5 Access
+_UPD: August 8, the list is still being updated_
 - [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface) — GPT-5 access with generous daily qouta during preview
 - [Codex CLI](https://github.com/openai/codex) — free with ChatGPT plus subscription
 - [Cursor](https://cursor.com/) — GPT-5 offered with free credits for paying users during launch week
+- [v0](https://v0.dev/) - v0 Premium is required to access GPT-5 
 
-# How much free‑tier access do AI coding tools provide to pro‑grade LLMs (e.g., GPT‑5, Claude Sonnet 4, Gemini 2.5 Pro)
+## Problem & Solution
 
-## Intro
+Many AI coding tools claim to be “free,” but most only give access to top, pro-grade models for a short time before switching to basic ones. With each tool describing its limits differently—credits, tokens, requests—it’s hard to compare them fairly.
 
-Many tools advertise “free” AI coding, but most only let you use the top “frontier” or “pro-grade” models for a short time before switching you to more basic ones. Because each tool describes its limits differently (requests, credits, tokens), it’s tricky to compare which is actually the most generous.
+This list lines them up side-by-side to show which ones are actually the most generous. It assess how much **hours of coding with a pro-graded LLM** you are actually given. 
 
-This list compares those free tiers, ranks them from most to least generous, and includes links to the vendor docs so you can check the fine print yourself.
+### Qualifying Pro‑Grade Models
+Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-world coding tasks. Below is the current list
 
----
+| Model | Provider | SWE-bench Verified | Context Window | Notes |
+|-------|----------|-------------------|----------------|-------|
+| GPT-5 | OpenAI | 74.9% | 256K | Vendor-reported adaptive reasoning; reduced hallucinations vs o3 |
+| Claude Opus 4.1 | Anthropic | 74.5% | 200K (64K thinking) | Extended reasoning; multi-file refactoring |
+| Claude Sonnet 4 | Anthropic | 72.7% (80.2% w/ parallel) | 200K | Improved with test-time compute (parallel sampling) |
+| GPT-5 mini | OpenAI | 71.0% | 256K | Smaller variant of GPT-5 |
+| Qwen3-Coder-480B | Alibaba | 69.6% (interactive) / 67.0% (single) | 256K native / 1M extended | Open-weight; SWE-bench comparable to Sonnet 4 |
+| Gemini 2.5 Pro | Google | 63.2% | 2M | Large context window |
 
-**1.** [Free Access to Pro-Grade Models](#free-access-to-pro-grade-models) _(ordered from most generous to least)_
 
-**2.** [Paid Pro-Grade Tiers](#paid-pro-grade-tiers) _(ordered by most hours of coding for the buck)_
+## Contents
 
-**3.** [Free Basic Model Access](#free-access-to-basic-models) _(unspecified/basic models)_
+- [1. AI-coding Tools with Free Access to Pro-Grade Models](#1-ai-coding-tools-with-free-access-to-pro-grade-models)
+- [2. Tools with Paid Tiers with Pro-Grade Models](#2-tools-with-paid-tiers-with-pro-grade-models)
+- [3. Tools with Free Access to Basic Models](#3-tools-with-free-access-to-basic-models)
+- [4. Local Models](#4-local-models)
 
-**4.** [Local Models](#local-models) _(free inference, requires GPU investment)_  
 
----
-
-## 1. Free Access to Pro-Grade Models
+## 1. AI-coding Tools with Free Access to Pro-Grade Models
+_(ordered from most generous to least)_
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
@@ -150,7 +160,8 @@ This list compares those free tiers, ranks them from most to least generous, and
 
 ---
 
-## 2. Paid Tiers with Pro-Grade Models
+## 2. Tools with Paid Tiers with Pro-Grade Models
+_(ordered by most hours of coding for the buck)_
 
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
@@ -252,7 +263,8 @@ This list compares those free tiers, ranks them from most to least generous, and
 
 ---
 
-## 3. Free Access to Basic Models
+## 3. Tools with Free Access to Basic Models
+__(unspecified/basic models)__
 
 ### [Lovable](https://lovable.dev/)
 
@@ -310,20 +322,6 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ---
 
-## Pro-Grade Models Benchmark Comparison
-
-Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-world coding tasks.
-
-| Model | Provider | SWE-bench Verified | Context Window | Notes |
-|-------|----------|-------------------|----------------|-------|
-| GPT-5 | OpenAI | 74.9% | 256K | Adaptive reasoning system, 6x fewer hallucinations than o3 |
-| Claude Opus 4.1 | Anthropic | 74.5% | 200K (64K thinking) | Extended thinking capability, multi-file refactoring |
-| Claude Sonnet 4 | Anthropic | 72.7% (80.2% w/ parallel) | 200K | Best performance with test-time compute |
-| GPT-5 mini | OpenAI | 71.0% | 256K | Cost-effective variant of GPT-5 |
-| Qwen3-Coder-480B | Alibaba | 69.6% (interactive) / 67.0% (single) | 256K native / 1M extended | Best open-source, matches Claude Sonnet 4 |
-| Gemini 2.5 Pro | Google | 63.2% | 2M | Excellent multi-language support, largest context window |
-
----
-
-**Disclaimer:** No affiliation with any vendor. All trademarks belong to their owners. Information is for research; accuracy not guaranteed; limits/pricing change frequently.
+## Disclaimer
+No affiliation with any vendor. All trademarks belong to their owners. Information is for research; accuracy not guaranteed; limits/pricing change frequently.
 
