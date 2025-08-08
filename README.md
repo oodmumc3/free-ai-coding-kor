@@ -1,11 +1,9 @@
-Last updated: August 7, 2025 • PRs/issues welcome • ⭐ Star to come back later
+Last updated: August 8, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
-## UPD August 7: Current list of AI tools providing access to the GPT-5 models family:
+## List of AI tools providing (semi)-free access to GPT-5 - UPD August 8, list is being updated
+- [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface) — GPT-5 access with generous daily qouta during preview
+- [Codex CLI](https://github.com/openai/codex) — free with ChatGPT plus subscription
 - [Cursor](https://cursor.com/) — GPT-5 offered with free credits for paying users during launch week
-- [Codex CLI](https://github.com/openai/codex) — paid only (pay-as-you-go)
-
-The list is being updating... 
-Please submit an issue or PR if you know of others.
 
 # How much free‑tier access do AI coding tools provide to pro‑grade LLMs (e.g., GPT‑5, Claude Sonnet 4, Gemini 2.5 Pro)
 
