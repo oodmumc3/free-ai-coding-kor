@@ -1,12 +1,6 @@
-# Free AI Coding: Where to Use GPT‑5 and Other Pro‑Grade Models for Free
-Last updated: August 8, 2025 • PRs/issues welcome • ⭐ Star to come back later
+Last updated: August 10, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
-## Quick Links to GPT‑5 Access
-_UPD: August 8, the list is still being updated_
-- [Rovo Dev CLI](#rovo-dev-cli) — GPT-5 access with generous daily qouta during preview
-- [Codex CLI](#openai-codex-cli) — free with ChatGPT plus subscription
-- [Cursor](#cursor) — GPT-5 offered with free credits for paying users during launch week
-- [v0](#v0dev) - v0 Premium is required to access GPT-5 
+# AI Coding Tools: Where Pro-Grade Models Are Actually Free 
 
 ## Problem & Solution
 
@@ -179,6 +173,34 @@ _(ordered from most generous to least)_
 
 ---
 
+### [Google AI Studio](https://aistudio.google.com/)
+
+> **~0.4h/day (~12h/month) of Gemini 2.5 Pro coding**
+- 25 requests/day limit for Gemini 2.5 Pro
+- 5 requests/minute rate limit
+- 1M token context window
+- No credit card required
+- Web-based interface only (API has different limits)
+- Free access may change to paid in coming weeks
+
+**Links:** [Rate Limits](https://ai.google.dev/gemini-api/docs/rate-limits) | [Pricing](https://ai.google.dev/gemini-api/docs/pricing)
+
+---
+
+### [OpenRouter](https://openrouter.ai/)
+
+> **~33h/day (~1000h/month) of Qwen3-Coder coding**
+- 2,000 requests/day free tier for Qwen3-Coder-480B
+- Additional free models: Qwen3-30B-A3B, Qwen3-235B-A22B, Gemini Flash
+- OpenAI-compatible API for all major IDEs
+- No credit card required for free models
+- Rate limiting during high traffic for free tier
+- Works with Continue.dev, Cline, Cursor, etc.
+
+**Links:** [Free Models](https://openrouter.ai/models/?q=free) | [Qwen3-Coder API](https://openrouter.ai/qwen/qwen3-coder:free/api)
+
+---
+
 > Limits change fast. If you see a mistake, a newer quota/model, or want to add a new tool, open an issue or PR with a source. New tool contributions are welcomed!
 
 ---
@@ -282,6 +304,56 @@ _(ordered by most hours of coding for the buck)_
 
 ---
 
+### [Codeium](https://codeium.com/)
+
+**Pro ($10/mo):** Unlimited usage with advanced context awareness
+- Claude 3.5 Sonnet, GPT-4o access
+- Enhanced context window and personalization
+**Teams ($12/user/mo):** Pro features + team management
+**Enterprise (Custom):** On-premise deployment, custom models
+
+**Links:** [Pricing](https://codeium.com/pricing)
+
+---
+
+### [Tabnine](https://www.tabnine.com/)
+
+**Pro ($12/mo):** Enhanced AI completions and chat
+**Enterprise ($39/user/mo):** Multiple LLMs, private deployment
+- Models: Claude 3.5 Sonnet, GPT-4o, Llama 3.3 70B, proprietary models
+- 600+ programming languages supported
+- On-premises and air-gapped deployment options
+- Bring your own fine-tuned models
+
+**Links:** [Pricing](https://www.tabnine.com/pricing/)
+
+---
+
+### [JetBrains AI Assistant](https://www.jetbrains.com/ai/)
+
+**AI Pro ($15/mo):** Increased cloud quota + unlimited local models
+**AI Ultimate ($25/mo):** Maximum cloud quota + advanced features
+- Free tier: Unlimited code completion + local models + limited cloud quota
+- 30-day Pro trial included
+- All Products Pack includes AI Pro
+- Offline mode with local models via Ollama/LM Studio
+
+**Links:** [AI Pricing](https://www.jetbrains.com/ai-ides/buy/)
+
+---
+
+### [SuperMaven](https://supermaven.com/)
+
+**Pro ($10/mo):** 1M token context window + chat credits
+- Alternative: $99/year
+- Chat interface with GPT-4o, Claude 3.5 Sonnet, GPT-4
+**Team ($10/user/mo):** Pro features + team management
+- Note: Merged with Cursor IDE in November 2024
+
+**Links:** [Pricing](https://supermaven.com/pricing)
+
+---
+
 > Know better pricing or limits? Share a link in an issue or PR to help keep this updated.
 
 ---
@@ -323,13 +395,78 @@ __(unspecified/basic models)__
 
 ---
 
+### [Codeium](https://codeium.com/)
+
+**Unlimited free usage of basic AI coding assistance**
+- Individual plan: Free forever with unlimited code completions, AI chat, commands
+- 70+ programming languages supported
+- IDE integrations: VS Code, JetBrains, Vim/Neovim, Jupyter
+- No credit card required
+- Limited context awareness (expanded in paid tiers)
+- Base model only (Llama 3.1 70B), premium models require subscription
+
+**Links:** [Pricing](https://codeium.com/pricing) | [Documentation](https://codeium.com/docs)
+
+---
+
+### [Tabnine](https://www.tabnine.com/)
+
+**Free tier with limited features**
+- Basic AI code completions and chat (limited)
+- Local processing available
+- Context heavily limited in free tier
+- Performance dialed down to save resources
+- 600+ programming languages supported
+
+**Links:** [Pricing](https://www.tabnine.com/pricing/)
+
+---
+
+### [JetBrains AI Assistant](https://www.jetbrains.com/ai/)
+
+**AI Free tier included with IDEs**
+- Unlimited code completion and local model support
+- Limited quota for cloud-based features
+- 30-day AI Pro trial
+- Chat, code generation, commit messages with local models
+
+**Links:** [AI Features](https://www.jetbrains.com/ai-assistant/)
+
+---
+
+### [SuperMaven](https://supermaven.com/)
+
+**Free tier with basic features**
+- Basic code suggestions
+- 7-day data retention limit
+- Credit card required for registration
+- 1M token context window (impressive for free tier)
+
+**Links:** [Pricing](https://supermaven.com/pricing)
+
+---
+
+### [Continue.dev](https://www.continue.dev/)
+
+**Free open-source extension with flexible model support**
+- Free VS Code and JetBrains extension
+- Full support for local models via Ollama, LM Studio
+- Solo tier: Private/team/public visibility options
+- Supports 200+ models (requires your own API keys for cloud models)
+- Community hub for custom AI assistants
+- No vendor lock-in or usage limits for local models
+
+**Links:** [GitHub](https://github.com/continuedev/continue) | [Model Hub](https://hub.continue.dev/explore/models)
+
+---
+
 > Know the official limits or models? Share a link in an issue or PR to update the information.
 
 ---
 
 ## 4. Local Models
 
-Running open-weight frontier models locally provides unlimited coding assistance without API costs or usage limits. Popular tools for local deployment include **[Cline](https://cline.bot/)** (VS Code extension with Plan/Act modes and MCP support), **[Aider](https://aider.chat/)** (command-line assistant with built-in Git integration), and **[Continue](https://www.continue.dev/)** (open-source VS Code extension supporting 200+ models). All work seamlessly with **[Ollama](https://ollama.com/)** to run frontier models like Devstral (24B parameters, optimized for agentic coding), Qwen3-Coder, DeepSeek Coder V2, Codestral, and GLM-4.5.
+Running open-weight frontier models locally provides unlimited coding assistance without API costs or usage limits. Popular tools for local deployment include **[Cline](https://cline.bot/)** (VS Code extension with Plan/Act modes and MCP support), **[Aider](https://aider.chat/)** (command-line assistant with built-in Git integration), and **[Continue.dev](https://www.continue.dev/)** (open-source VS Code extension supporting 200+ models). All work seamlessly with **[Ollama](https://ollama.com/)** to run frontier models like Devstral (24B parameters, optimized for agentic coding), Qwen3-Coder, DeepSeek Coder V2, Codestral, and GLM-4.5.
 
 **Note**: Frontier models require substantial RAM/VRAM. In particular, for Qwen3‑Coder‑480B the Ollama‑friendly GGUF is ~150GB, and practical local inference can require ~150GB of unified memory (RAM+VRAM), which makes it hard on typical laptops; the 30B quant commonly needs ~18GB. See the Unsloth Qwen3‑Coder local guide for details ([docs](https://docs.unsloth.ai/basics/qwen3-coder-how-to-run-locally)) and Simon Willison's article on [running GLM‑4.5 AIR on his laptop to build Space Invaders](https://simonwillison.net/2025/Jul/29/space-invaders/) for a practical example.
 
