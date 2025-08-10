@@ -206,13 +206,11 @@ _(ordered from most generous to least)_
 ---
 
 ## 2. Tools with Paid Tiers with Pro-Grade Models
-_(ordered by most hours of coding for the buck)_
 
 ### [Cerebras](https://cloud.cerebras.ai/)
 
-**Code Pro ($50/mo):** ~800h/month of Qwen3-Coder at 2,000 tokens/sec
-**Code Max ($200/mo):** Unlimited usage for heavy workflows
-- 24M tokens/day on Pro tier
+**Code Pro ($50/mo):** 24M tokens/day limit
+**Code Max ($200/mo):** Unlimited usage
 - Models: Qwen3-Coder-480B (SOTA open-source), Llama 3.1 70B
 - OpenAI-compatible API for all major IDEs
 - Custom ASIC hardware (not GPU) for ultra-fast inference
@@ -223,11 +221,11 @@ _(ordered by most hours of coding for the buck)_
 
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
-**Pro ($20/mo):** 40-80h/week Sonnet 4
-**Max ($100/mo):** 15-35h/week Opus 4 + 140-280h/week Sonnet 4
-**Max ($200/mo):** 24-40h/week Opus 4 + 240-480h/week Sonnet 4
-- Usage limits reset weekly (starting August 28, 2025)
-- Additional 5-hour rolling window limits remain in place
+**Pro ($20/mo):** Sonnet 4 access
+**Max ($100/mo):** Opus 4 + Sonnet 4 access
+**Max ($200/mo):** Higher Opus 4 + Sonnet 4 limits
+- Usage limits reset weekly
+- 5-hour rolling window limits apply
 
 **Links:** [Pricing](https://www.anthropic.com/pricing)
 
@@ -244,9 +242,9 @@ _(ordered by most hours of coding for the buck)_
 
 ### [Warp](https://warp.dev/)
 
-**Pro ($15/mo):** ~42h/month
-**Turbo ($40/mo):** ~167h/month
-**Lightspeed ($200/mo):** ~833h/month
+**Pro ($15/mo):** 2,500 requests/month
+**Turbo ($40/mo):** 10,000 requests/month  
+**Lightspeed ($200/mo):** 50,000 requests/month
 - Pay-as-you-go available for overages
 
 **Links:** [Pricing](https://www.warp.dev/pricing)
@@ -255,10 +253,10 @@ _(ordered by most hours of coding for the buck)_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-**Pro ($10/mo):** ~5h/month
-**Pro+ ($39/mo):** ~25h/month
-**Business ($19/user/mo):** ~5h/user/month
-**Enterprise ($39/user/mo):** ~17h/user/month
+**Pro ($10/mo):** 300 chats + unlimited completions/month
+**Pro+ ($39/mo):** 1,500 chats + unlimited completions/month
+**Business ($19/user/mo):** 300 chats + unlimited completions/user/month
+**Enterprise ($39/user/mo):** 1,000 chats + unlimited completions/user/month
 - Overage billing available at $0.04/request
 
 **Links:** [Plans Details](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)
@@ -267,7 +265,7 @@ _(ordered by most hours of coding for the buck)_
 
 ### [Windsurf](https://windsurf.com/)
 
-**Pro ($15/mo):** ~8.3h/month
+**Pro ($15/mo):** 500 credits/month
 **Teams ($30/user/mo):** Higher limits (undisclosed)
 **Enterprise ($60+/user/mo):** Higher limits (undisclosed)
 
@@ -277,7 +275,7 @@ _(ordered by most hours of coding for the buck)_
 
 ### [Lovable](https://lovable.dev/)
 
-**Pro ($25/mo):** ~1.7h/month
+**Pro ($25/mo):** 100 messages/month
 **Teams ($30/mo):** Higher limits (undisclosed)
 
 **Links:** [Messaging Limits](https://docs.lovable.dev/user-guides/messaging-limits)
@@ -286,8 +284,8 @@ _(ordered by most hours of coding for the buck)_
 
 ### [Bolt.new](https://bolt.new/)
 
-**$20/mo:** ~1,000h/month
-**$200/mo:** ~12,000h/month
+**$20/mo:** 10M tokens/month
+**$200/mo:** 120M tokens/month
 
 **Links:** [Token Documentation](https://support.bolt.new/account-and-subscription/tokens)
 
