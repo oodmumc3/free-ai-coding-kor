@@ -494,5 +494,11 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ---
 
+## Related Resources
+
+- [Free LLM API Resources](https://github.com/cheahjs/free-llm-api-resources) - Comprehensive list of free LLM APIs for building custom integrations
+
+---
+
 ## Disclaimer
 No affiliation with any vendor. All trademarks belong to their owners. Information is for research; accuracy not guaranteed; limits/pricing change frequently.
