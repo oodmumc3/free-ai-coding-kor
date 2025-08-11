@@ -22,9 +22,10 @@ Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-w
 ## Contents
 
 - [1. AI-coding Tools with Free Access to Pro-Grade Models](#1-ai-coding-tools-with-free-access-to-pro-grade-models)
-- [2. Tools with Paid Tiers with Pro-Grade Models](#2-tools-with-paid-tiers-with-pro-grade-models)
-- [3. Tools with Free Access to Basic Models](#3-tools-with-free-access-to-basic-models)
-- [4. Local Models](#4-local-models)
+- [2. API Providers for AI Coding Tools](#2-api-providers-for-ai-coding-tools)
+- [3. Tools with Paid Tiers with Pro-Grade Models](#3-tools-with-paid-tiers-with-pro-grade-models)
+- [4. Tools with Free Access to Basic Models](#4-tools-with-free-access-to-basic-models)
+- [5. Local Models](#5-local-models)
 
 
 ## 1. AI-coding Tools with Free Access to Pro-Grade Models
@@ -54,20 +55,6 @@ _(ordered from most generous to least)_
 - Switches to paid rates after free quota
 
 **Links:** [Rate Limits](https://ai.google.dev/gemini-api/docs/rate-limits) | [Pricing](https://ai.google.dev/gemini-api/docs/pricing)
-
----
-
-### [Cerebras](https://cloud.cerebras.ai/)
-
-> **~1.7h/day (~50h/month) of Qwen3-Coder/Llama 3.1 coding**
-- 100 requests/day free tier
-- Models: Qwen3-Coder-480B (matches Claude Sonnet 4 performance), Llama 3.1 70B, Qwen3-32B, Qwen3-235B
-- OpenAI-compatible API (works with Cursor, Continue.dev, Cline, etc.)
-- Ultra-fast inference: 2,000 tokens/second (40x faster than typical providers)
-- No credit card required
-- Note: Cerebras provides API access only, not software - integrate with existing IDEs/CLIs
-
-**Links:** [Pricing](https://www.cerebras.ai/pricing) | [API Docs](https://inference-docs.cerebras.ai/) | [Cline Integration](https://inference-docs.cerebras.ai/integrations/cline)
 
 ---
 
@@ -173,19 +160,14 @@ _(ordered from most generous to least)_
 
 ---
 
-### [Google AI Studio](https://aistudio.google.com/)
-
-> **~0.4h/day (~12h/month) of Gemini 2.5 Pro coding**
-- 25 requests/day limit for Gemini 2.5 Pro
-- 5 requests/minute rate limit
-- 1M token context window
-- No credit card required
-- Web-based interface only (API has different limits)
-- Free access may change to paid in coming weeks
-
-**Links:** [Rate Limits](https://ai.google.dev/gemini-api/docs/rate-limits) | [Pricing](https://ai.google.dev/gemini-api/docs/pricing)
+> Limits change fast. If you see a mistake, a newer quota/model, or want to add a new tool, open an issue or PR with a source. New tool contributions are welcomed!
 
 ---
+
+## 2. API Providers for AI Coding Tools
+_(ordered from most generous to least)_
+
+These services provide API access to coding-optimized models that integrate with popular AI coding tools like Cursor, Continue.dev, Cline, and others. They don't provide standalone coding tools but offer the AI backend for existing tools.
 
 ### [OpenRouter](https://openrouter.ai/)
 
@@ -201,11 +183,21 @@ _(ordered from most generous to least)_
 
 ---
 
-> Limits change fast. If you see a mistake, a newer quota/model, or want to add a new tool, open an issue or PR with a source. New tool contributions are welcomed!
+### [Cerebras](https://cloud.cerebras.ai/)
+
+> **~1.7h/day (~50h/month) of Qwen3-Coder/Llama 3.1 coding**
+- 100 requests/day free tier
+- Models: Qwen3-Coder-480B (matches Claude Sonnet 4 performance), Llama 3.1 70B
+- OpenAI-compatible API (works with Cursor, Continue.dev, Cline, RooCode, etc.)
+- Ultra-fast inference: 2,000 tokens/second (40x faster than typical providers)
+- No credit card required
+- **Paid tiers:** Code Pro ($50/mo) for 24M tokens/day, Code Max ($200/mo) for 120M tokens/day
+
+**Links:** [Pricing](https://www.cerebras.ai/pricing) | [API Docs](https://inference-docs.cerebras.ai/) | [Integration Guides](https://inference-docs.cerebras.ai/integrations/)
 
 ---
 
-## 2. Tools with Paid Tiers with Pro-Grade Models
+## 3. Tools with Paid Tiers with Pro-Grade Models
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
@@ -220,17 +212,6 @@ _(ordered from most generous to least)_
 
 ---
 
-### [Cerebras](https://cloud.cerebras.ai/)
-
-**Code Pro ($50/mo):** 24M tokens/day limit
-**Code Max ($200/mo):** Unlimited usage
-- Models: Qwen3-Coder-480B (SOTA open-source), Llama 3.1 70B
-- OpenAI-compatible API for all major IDEs
-- Custom ASIC hardware (not GPU) for ultra-fast inference
-
-**Links:** [Pricing](https://www.cerebras.ai/pricing) | [Blog](https://www.cerebras.ai/blog/introducing-cerebras-code)
-
----
 
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
@@ -369,7 +350,7 @@ _(ordered from most generous to least)_
 
 ---
 
-## 3. Tools with Free Access to Basic Models
+## 4. Tools with Free Access to Basic Models
 __(unspecified/basic models)__
 
 ### [Bolt.new](https://bolt.new/)
@@ -475,7 +456,7 @@ __(unspecified/basic models)__
 
 ---
 
-## 4. Local Models
+## 5. Local Models
 
 Running open-weight frontier models locally provides unlimited coding assistance without API costs or usage limits. Popular tools for local deployment include **[Cline](https://cline.bot/)** (VS Code extension with Plan/Act modes and MCP support), **[Aider](https://aider.chat/)** (command-line assistant with built-in Git integration), and **[Continue.dev](https://www.continue.dev/)** (open-source VS Code extension supporting 200+ models). All work seamlessly with **[Ollama](https://ollama.com/)** to run frontier models like Devstral (24B parameters, optimized for agentic coding), Qwen3-Coder, DeepSeek Coder V2, Codestral, and GLM-4.5.
 
