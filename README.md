@@ -1,4 +1,4 @@
-Last updated: August 10, 2025 • PRs/issues welcome • ⭐ Star to come back later
+Last updated: August 11, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
 # AI Coding Tools: Where Pro-Grade Models Are Actually Free 
 
@@ -206,6 +206,19 @@ _(ordered from most generous to least)_
 ---
 
 ## 2. Tools with Paid Tiers with Pro-Grade Models
+
+### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
+
+**Jira Standard ($7.53/user/mo):** 20M tokens/day (~80h/day of Claude Sonnet coding)
+**Jira Premium ($15.25/user/mo):** 20M tokens/day
+**Jira Enterprise (custom):** 20M tokens/day
+- 4x increase from free tier (5M → 20M tokens/day)
+- Same Claude-based model as free tier
+- Token limits reset at midnight UTC
+
+**Links:** [Documentation](https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/) | [Token Limits](https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/) | [Jira Pricing](https://www.atlassian.com/software/jira/pricing)
+
+---
 
 ### [Cerebras](https://cloud.cerebras.ai/)
 
