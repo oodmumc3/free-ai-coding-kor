@@ -2,21 +2,19 @@ Last updated: August 11, 2025 • PRs/issues welcome • ⭐ Star to come back l
 
 # AI Coding Tools: Where Pro-Grade Models Are Actually Free 
 
-## Problem & Solution
-
-Many AI coding tools claim to be “free,” but access to pro-grade models usually runs out fast, then you’re downgraded. Each tool uses different limits (credits, tokens, requests), so fair comparison is hard. This list puts them side by side and shows **how many hours of coding on pro-grade LLMs you actually get for free**.
+Many AI coding tools claim to be "free," but access to pro-grade models usually runs out fast, then you're downgraded. Each tool uses different limits (credits, tokens, requests), so fair comparison is hard. This list puts them side by side and shows **how many hours of coding on pro-grade LLMs you actually get for free**.
 
 ### Qualifying Pro‑Grade Models
 Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-world coding tasks. Below is the current list
 
-| Model | Provider | SWE-bench Verified | Context Window | Notes |
-|-------|----------|-------------------|----------------|-------|
-| GPT-5 | OpenAI | 74.9% | 256K | Vendor-reported adaptive reasoning; reduced hallucinations vs o3 |
-| Claude Opus 4.1 | Anthropic | 74.5% | 200K (64K thinking) | Extended reasoning; multi-file refactoring |
-| Claude Sonnet 4 | Anthropic | 72.7% (80.2% w/ parallel) | 200K | Improved with test-time compute (parallel sampling) |
-| GPT-5 mini | OpenAI | 71.0% | 256K | Smaller variant of GPT-5 |
-| Qwen3-Coder-480B | Alibaba | 69.6% (interactive) / 67.0% (single) | 256K native / 1M extended | Open-weight; SWE-bench comparable to Sonnet 4 |
-| Gemini 2.5 Pro | Google | 63.2% | 2M | Large context window |
+| Model | SWE-bench Verified | Provider |
+|-------|-------------------|----------|
+| GPT-5 | 74.9% | OpenAI |
+| Claude Opus 4.1 | 74.5% | Anthropic |
+| Claude Sonnet 4 | 72.7% (80.2% w/ parallel) | Anthropic |
+| GPT-5 mini | 71.0% | OpenAI |
+| Qwen3-Coder-480B | 69.6% (interactive) / 67.0% (single) | Alibaba |
+| Gemini 2.5 Pro | 63.2% | Google |
 
 
 ## Contents
@@ -118,33 +116,6 @@ _(ordered from most generous to least)_
 - Can purchase add-on credits to continue
 
 **Links:** [Pricing](https://windsurf.com/pricing)
-
----
-
-### [OpenAI Codex CLI](https://github.com/openai/codex)
-
-> **Variable duration based on demand (codex-1, codex-mini-latest)**
-- GPT-5 access available with ChatGPT Plus subscription
-- Free for all ChatGPT users with peak-time limits
-- Autonomous multi-task execution in secure cloud sandboxes
-- OpenAI models only
-- No credit card required for basic access
-- Rate limiting during high demand, paid subscribers get priority
-
-**Links:** [GitHub Repo](https://github.com/openai/codex) | [Help Center](https://help.openai.com/en/articles/11381614-codex-cli-and-sign-in-with-chatgpt)
-
----
-
-### [Cursor](https://cursor.com/)
-
-> **Unknown duration with basic models**
-- GPT-5 offered with free credits for paying users during launch week
-- "Limited agent requests" (undisclosed)
-- Multiple providers (OpenAI, Claude, Gemini)
-- Credit card required
-- Asked to upgrade or switch to unlimited model after quota
-
-**Links:** [Pricing](https://cursor.com/en/pricing)
 
 ---
 
@@ -287,12 +258,28 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Cursor](https://cursor.com/)
 
-**Pro ($20/mo):** Unknown estimate
-- GPT-5 offered with free credits for paying users during launch week
-**Ultra ($200/mo):** Unknown estimate
-**Teams ($40/user/mo):** Unknown estimate
+**Hobby (Free):** Limited agent requests with basic models only
+**Pro ($20/mo):** Extended limits on Agent, access to GPT-5, Claude Sonnet 4, Gemini 2.5 Pro
+**Ultra ($200/mo):** 20x usage on all OpenAI, Claude, Gemini models
+**Teams ($40/user/mo):** Pro features + team management
+- Two-week Pro trial available
+- Credit card required for free tier
 
 **Links:** [Pricing](https://cursor.com/en/pricing)
+
+---
+
+### [OpenAI Codex CLI](https://github.com/openai/codex)
+
+**Free with ChatGPT Plus ($20/mo):** GPT-5 access for coding tasks
+**Pay-as-you-go:** Use with OpenAI API key
+**Free OSS mode:** Access to open-source models only (via --oss flag)
+- Lightweight coding agent running locally
+- Interactive terminal UI with sandbox mode
+- macOS 12+, Ubuntu 20.04+, Windows 11 via WSL2
+- Experimental project under active development
+
+**Links:** [GitHub Repo](https://github.com/openai/codex)
 
 ---
 
