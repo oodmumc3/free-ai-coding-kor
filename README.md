@@ -1,8 +1,22 @@
-Last updated: August 11, 2025 • PRs/issues welcome • ⭐ Star to come back later
+Last updated: August 14, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
 # AI Coding Tools: Where Pro-Grade Models Are Actually Free 
 
 Many AI coding tools claim to be "free," but access to pro-grade models usually runs out fast, then you're downgraded. Each tool uses different limits (credits, tokens, requests), so fair comparison is hard. This list puts them side by side and shows **how many hours of coding on pro-grade LLMs you actually get for free**.
+
+## TL;DR — Ranked Free Tiers for Pro‑Grade Coding
+_(ordered from most generous to least; time estimates use the [Methodology](#methodology--assumptions) below)_
+
+| Tool | Pro‑grade models | Free tier limit | Approx free coding time | Credit card |
+|------|------------------|------------------|--------------------------|-------------|
+| [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/day (beta) | ~20h/day (~600h/month) | No |
+| [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requests/day | ~1.7h/day (~50h/month) | No |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 signup credits (one‑time) | ~3h total | No |
+| [Warp](#warp) | Claude, OpenAI, Gemini | 150 requests/month | ~2.5h/month | No |
+| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agent chats/month | ~0.8h/month | Yes |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completions/month | ~0.8h/month (agent) | No |
+| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | ~0.4h/month | Yes |
+| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | Daily limits (undisclosed) | Unknown | No (preview) |
 
 ### Qualifying Pro‑Grade Models
 Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-world coding tasks. Below is the current list
