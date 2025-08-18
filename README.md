@@ -18,6 +18,10 @@ _(ordered from most generous to least; time estimates use the [Methodology](#met
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | ~0.4h/month | Yes |
 | [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | Daily limits (undisclosed) | Unknown | No (preview) |
 
+## How Accurate Are These Estimates?
+
+These time estimates are based on calculations, but **real usage varies by coding style and task complexity**. Help make this resource more accurate by [sharing your actual coding hours →](https://free-ai-usage.vercel.app/)
+
 ### Qualifying Pro‑Grade Models
 Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-world coding tasks. Below is the current list
 
@@ -396,7 +400,7 @@ __(unspecified/basic models)__
 - IDE integrations: VS Code, JetBrains, Vim/Neovim, Jupyter
 - No credit card required
 - Limited context awareness (expanded in paid tiers)
-- Base model only (Llama 3.1 70B), premium models require subscription
+- Base model only (Llama 3.1 70B), pro-graded models require subscription
 
 **Links:** [Pricing](https://codeium.com/pricing) | [Documentation](https://codeium.com/docs)
 
