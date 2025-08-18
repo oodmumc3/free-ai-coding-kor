@@ -9,6 +9,7 @@ _(ordered from most generous to least; time estimates use the [Methodology](#met
 
 | Tool | Pro‑grade models | Free tier limit | Approx free coding time | Credit card |
 |------|------------------|------------------|--------------------------|-------------|
+| [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 requests/day | ~33h/day (~1000h/month) | No |
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/day (beta) | ~20h/day (~600h/month) | No |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requests/day | ~1.7h/day (~50h/month) | No |
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 signup credits (one‑time) | ~3h total | No |
@@ -46,6 +47,19 @@ Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-w
 
 ## 1. AI-coding Tools with Free Access to Pro-Grade Models
 _(ordered from most generous to least)_
+
+### [Qwen Code](https://github.com/QwenLM/qwen-code)
+
+> **~33h/day (~1000h/month) of Qwen3-Coder-480B coding**
+- 2,000 requests/day free tier via Qwen OAuth
+- 60 requests/minute rate limit
+- Command-line AI workflow tool (adapted from Gemini CLI)
+- One-click browser authentication
+- No credit card required
+
+**Links:** [GitHub](https://github.com/QwenLM/qwen-code) | [Documentation](https://github.com/QwenLM/qwen-code#readme)
+
+---
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
