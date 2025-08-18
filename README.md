@@ -1,4 +1,4 @@
-Last updated: August 14, 2025 • PRs/issues welcome • ⭐ Star to come back later
+Last updated: August 18, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
 # AI Coding Tools: Where Pro-Grade Models Are Actually Free 
 
@@ -61,7 +61,7 @@ _(ordered from most generous to least)_
 
 > **~1.7h/day (~50h/month) of Gemini 2.5 Pro coding**
 - 100 requests/day limit
-- Fallback: ~25h/day with Gemini 2.5 Flash (1,500 requests/day)
+- Fallback: ~4.2h/day with Gemini 2.5 Flash (250 requests/day)
 - No credit card required
 - Google models only
 - Switches to paid rates after free quota
@@ -124,7 +124,7 @@ _(ordered from most generous to least)_
 ### [Windsurf](https://windsurf.com/)
 
 > **~0.4h/month across OpenAI, Anthropic, Google, xAI models**
-- 25 credits/month limit (each credit = one prompt interaction)
+- 25 prompt credits/month limit
 - Multiple providers (OpenAI, Claude, Gemini, xAI)
 - Credit card required
 - Can purchase add-on credits to continue
@@ -176,7 +176,7 @@ These services provide API access to coding-optimized models that integrate with
 - OpenAI-compatible API (works with Cursor, Continue.dev, Cline, RooCode, etc.)
 - Ultra-fast inference: 2,000 tokens/second (40x faster than typical providers)
 - No credit card required
-- **Paid tiers:** Code Pro ($50/mo) for 24M tokens/day, Code Max ($200/mo) for 120M tokens/day
+- **Paid tiers:** Code Pro ($50/mo), Code Max ($200/mo) - no weekly limits
 
 **Links:** [Pricing](https://www.cerebras.ai/pricing) | [API Docs](https://inference-docs.cerebras.ai/) | [Integration Guides](https://inference-docs.cerebras.ai/integrations/)
 
@@ -244,9 +244,9 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Windsurf](https://windsurf.com/)
 
-**Pro ($15/mo):** 500 credits/month
-**Teams ($30/user/mo):** Higher limits (undisclosed)
-**Enterprise ($60+/user/mo):** Higher limits (undisclosed)
+**Pro ($15/mo):** 500 prompt credits/month
+**Teams ($30/user/mo):** 500 prompt credits/user/month
+**Enterprise ($60+/user/mo):** 1,000 prompt credits/user/month
 
 **Links:** [Pricing](https://windsurf.com/pricing)
 
