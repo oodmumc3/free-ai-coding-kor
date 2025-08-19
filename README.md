@@ -12,15 +12,15 @@
 
 | 도구 | 프로급 모델 | 무료 등급 한도 | 대략적인 무료 코딩 시간 | 신용카드 필요 여부 |
 |---|---|---|---|---|
-| [Qwen Code](https://www.google.com/search?q=%23qwen-code) | Qwen3-Coder-480B | 2,000 요청/일 | \~33시간/일 (\~1000시간/월) | 불필요 |
-| [Rovo Dev CLI](https://www.google.com/search?q=%23rovo-dev-cli) | Claude Sonnet 4 | 5M 토큰/일 (베타) | \~20시간/일 (\~600시간/월) | 불필요 |
-| [Gemini CLI](https://www.google.com/search?q=%23gemini-cli) | Gemini 2.5 Pro | 100 요청/일 | \~1.7시간/일 (\~50시간/월) | 불필요 |
-| [Kilo Code](https://www.google.com/search?q=%23kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | 가입 시 $20 크레딧 (일회성) | 총 \~3시간 | 불필요 |
-| [Warp](https://www.google.com/search?q=%23warp) | Claude, OpenAI, Gemini | 150 요청/월 | \~2.5시간/월 | 불필요 |
-| [Amazon Q Developer](https://www.google.com/search?q=%23amazon-q-developer) | Claude Sonnet 4 | 50 에이전트 채팅/월 | \~0.8시간/월 | 필요 |
-| [GitHub Copilot](https://www.google.com/search?q=%23github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 채팅 + 2,000 완성/월 | \~0.8시간/월 (에이전트) | 불필요 |
-| [Windsurf](https://www.google.com/search?q=%23windsurf) | OpenAI, Anthropic, Google, xAI | 25 크레딧/월 | \~0.4시간/월 | 필요 |
-| [AWS Kiro](https://www.google.com/search?q=%23aws-kiro) | Claude Sonnet 4 / 3.7 | 일일 한도 (미공개) | 알 수 없음 | 불필요 (프리뷰) |
+| [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 요청/일 | \~33시간/일 (\~1000시간/월) | 불필요 |
+| [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M 토큰/일 (베타) | \~20시간/일 (\~600시간/월) | 불필요 |
+| [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 요청/일 | \~1.7시간/일 (\~50시간/월) | 불필요 |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | 가입 시 $20 크레딧 (일회성) | 총 \~3시간 | 불필요 |
+| [Warp](#warp) | Claude, OpenAI, Gemini | 150 요청/월 | \~2.5시간/월 | 불필요 |
+| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 에이전트 채팅/월 | \~0.8시간/월 | 필요 |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 채팅 + 2,000 완성/월 | \~0.8시간/월 (에이전트) | 불필요 |
+| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 크레딧/월 | \~0.4시간/월 | 필요 |
+| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 일일 한도 (미공개) | 알 수 없음 | 불필요 (프리뷰) |
 
 -----
 
@@ -45,11 +45,11 @@
 
 ### 목차
 
-  - [1. 프로급 모델에 무료로 접근할 수 있는 AI 코딩 도구](https://www.google.com/search?q=%231-ai-coding-tools-with-free-access-to-pro-grade-models)
-  - [2. AI 코딩 도구용 API 제공사](https://www.google.com/search?q=%232-api-providers-for-ai-coding-tools)
-  - [3. 프로급 모델을 유료 등급에서 제공하는 도구](https://www.google.com/search?q=%233-tools-with-paid-tiers-with-pro-grade-models)
-  - [4. 기본 모델에 무료로 접근할 수 있는 도구](https://www.google.com/search?q=%234-tools-with-free-access-to-basic-models)
-  - [5. 로컬 모델](https://www.google.com/search?q=%235-local-models)
+  - [1. 프로급 모델에 무료로 접근할 수 있는 AI 코딩 도구](#ai-coding-tools-with-free-access-to-pro-grade-models)
+  - [2. AI 코딩 도구용 API 제공사](#api-providers-for-ai-coding-tools)
+  - [3. 프로급 모델을 유료 등급에서 제공하는 도구](#tools-with-paid-tiers-with-pro-grade-models)
+  - [4. 기본 모델에 무료로 접근할 수 있는 도구](#tools-with-free-access-to-basic-models)
+  - [5. 로컬 모델](#local-models)
 
 -----
 
